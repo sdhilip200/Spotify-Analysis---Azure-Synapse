@@ -1,0 +1,15 @@
+{
+	"name": "wssbx01auedps-db-sbx01-dps-sqlsrv",
+	"type": "Microsoft.Synapse/workspaces/linkedservices",
+	"properties": {
+		"type": "AzureSqlDW",
+		"connectVia": {
+			"referenceName": "AutoResolveIntegrationRuntime",
+			"type": "IntegrationRuntimeReference"
+		},
+		"annotations": [],
+		"typeProperties": {
+			"connectionString": "Integrated Security=False;Encrypt=True;Connection Timeout=30;Data Source=db-sbx01-dps-sqlsrv.database.windows.net;Initial Catalog=sqldbp-sbx01-aue-dps-ws"
+		}
+	}
+}

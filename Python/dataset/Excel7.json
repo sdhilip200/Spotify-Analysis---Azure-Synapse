@@ -1,0 +1,36 @@
+{
+	"name": "Excel7",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "wssbx01auedps-WorkspaceDefaultStorage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "Sheet1",
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "Position.xlsx",
+				"folderPath": "Jobs_newdata/Dimension Table",
+				"fileSystem": "jobsdata"
+			},
+			"firstRowAsHeader": true
+		},
+		"schema": [
+			{
+				"name": "JOBTYPE",
+				"type": "String"
+			},
+			{
+				"name": "Type",
+				"type": "String"
+			},
+			{
+				"name": "ID",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.Synapse/workspaces/datasets"
+}

@@ -1,0 +1,105 @@
+{
+	"name": "AzureSqlTable5",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase6",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "id",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "JNCOUNTER",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "AGENCYNAME",
+				"type": "nvarchar"
+			},
+			{
+				"name": "AGENCYNUMBER",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "JOBREFERENCE",
+				"type": "nvarchar"
+			},
+			{
+				"name": "JOBTYPE",
+				"type": "nvarchar"
+			},
+			{
+				"name": "POSITIONS",
+				"type": "nvarchar"
+			},
+			{
+				"name": "LOCATION",
+				"type": "nvarchar"
+			},
+			{
+				"name": "STARTDATE",
+				"type": "nvarchar"
+			},
+			{
+				"name": "DURATION",
+				"type": "nvarchar"
+			},
+			{
+				"name": "RATE",
+				"type": "nvarchar"
+			},
+			{
+				"name": "CONTACT",
+				"type": "nvarchar"
+			},
+			{
+				"name": "DATEINPUT",
+				"type": "nvarchar"
+			},
+			{
+				"name": "AgencyID",
+				"type": "nvarchar"
+			},
+			{
+				"name": "LocationID",
+				"type": "nvarchar"
+			},
+			{
+				"name": "RateID",
+				"type": "nvarchar"
+			},
+			{
+				"name": "ORIGINALDATE",
+				"type": "nvarchar"
+			},
+			{
+				"name": "INDUSTRY",
+				"type": "nvarchar"
+			},
+			{
+				"name": "CATEGORY",
+				"type": "nvarchar"
+			},
+			{
+				"name": "ARCHIVEDATE",
+				"type": "nvarchar"
+			},
+			{
+				"name": "DELETEDDATE",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "Job",
+			"table": "fact_jobs"
+		}
+	},
+	"type": "Microsoft.Synapse/workspaces/datasets"
+}

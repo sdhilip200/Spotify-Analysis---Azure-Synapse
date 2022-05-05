@@ -1,0 +1,908 @@
+{
+	"name": "Notebook 2",
+	"properties": {
+		"nbformat": 4,
+		"nbformat_minor": 2,
+		"bigDataPool": {
+			"referenceName": "wssbx01auedpssp",
+			"type": "BigDataPoolReference"
+		},
+		"sessionProperties": {
+			"driverMemory": "28g",
+			"driverCores": 4,
+			"executorMemory": "28g",
+			"executorCores": 4,
+			"numExecutors": 2,
+			"conf": {
+				"spark.dynamicAllocation.enabled": "false",
+				"spark.dynamicAllocation.minExecutors": "2",
+				"spark.dynamicAllocation.maxExecutors": "2",
+				"spark.autotune.trackingId": "c301a90e-7b12-4c5e-8977-569b84c8836d"
+			}
+		},
+		"metadata": {
+			"saveOutput": true,
+			"synapse_widget": {
+				"version": "0.1",
+				"state": {
+					"bdc47175-3cb8-4cc0-a2cd-1b7ee05783b6": {
+						"type": "Synapse.DataFrame",
+						"sync_state": {
+							"table": {
+								"rows": [
+									{
+										"0": "222780019",
+										"1": "Ministry for Primary Industries",
+										"2": "18153",
+										"3": "MPI17/1266640",
+										"4": "Full Time",
+										"5": "Veterinarians - EOI",
+										"6": "National",
+										"7": "ASAP",
+										"8": "N/A",
+										"9": "$NEG",
+										"10": "Sean Hill",
+										"11": "2022-03-08T13:13:41Z",
+										"13": "2017-03-22T14:51:30Z",
+										"14": "Veterinarians",
+										"15": "Live",
+										"18": "0"
+									},
+									{
+										"0": "224745057",
+										"1": "Waikato District Health Board (Hamilton)",
+										"2": "19769",
+										"3": "WAI11823",
+										"4": "Permanent Part time",
+										"5": "Specialist Radiologist - Paediatrics",
+										"6": "Waikato",
+										"7": "ASAP",
+										"8": "N/A",
+										"9": "N/A",
+										"10": "Madeleine Stapleton",
+										"11": "2021-10-05T21:12:08Z",
+										"13": "2021-07-19T14:25:40Z",
+										"14": "Senior Medical Officers, Medical Officers and Fellows",
+										"15": "Live",
+										"18": "1"
+									},
+									{
+										"0": "224745058",
+										"1": "Waikato District Health Board (Hamilton)",
+										"2": "19769",
+										"3": "WAI13616",
+										"4": "Contract/Temp Full time",
+										"5": "Fellow -  Critical  Care",
+										"6": "Waikato",
+										"7": "ASAP",
+										"8": "N/A",
+										"9": "N/A",
+										"10": "Madeleine Stapleton",
+										"11": "2022-03-17T10:30:45Z",
+										"13": "2021-07-19T14:25:41Z",
+										"14": "Senior Medical Officers, Medical Officers and Fellows",
+										"15": "Live",
+										"18": "2"
+									},
+									{
+										"0": "224745073",
+										"1": "Waikato District Health Board (Hamilton)",
+										"2": "19769",
+										"3": "WAI16936",
+										"4": "Permanent Full time",
+										"5": "Pharmacist - Quality and Safe Use of Medicines ",
+										"6": "Waikato",
+										"7": "ASAP",
+										"8": "N/A",
+										"9": "N/A",
+										"10": "Elysia Koretz",
+										"11": "2022-03-10T14:30:39Z",
+										"13": "2021-07-19T14:25:41Z",
+										"14": "Technical",
+										"15": "Live",
+										"18": "3"
+									},
+									{
+										"0": "224745091",
+										"1": "Waikato District Health Board (Hamilton)",
+										"2": "19769",
+										"3": "WAI17803",
+										"4": "Permanent Full time",
+										"5": "Orthopaedics Fellow - Trauma",
+										"6": "Waikato",
+										"7": "ASAP",
+										"8": "N/A",
+										"9": "N/A",
+										"10": "Kate Johnson",
+										"11": "2021-10-05T21:12:08Z",
+										"13": "2021-07-19T14:25:42Z",
+										"14": "Registrar",
+										"15": "Live",
+										"18": "4"
+									},
+									{
+										"0": "224745092",
+										"1": "Waikato District Health Board (Hamilton)",
+										"2": "19769",
+										"3": "WAI17804",
+										"4": "Permanent Full time",
+										"5": "Orthopaedics Fellow - Arthroplasty",
+										"6": "Waikato",
+										"7": "ASAP",
+										"8": "N/A",
+										"9": "N/A",
+										"10": "Kate Johnson",
+										"11": "2021-10-05T21:12:08Z",
+										"13": "2021-07-19T14:25:42Z",
+										"14": "Registrar",
+										"15": "Live",
+										"18": "5"
+									},
+									{
+										"0": "224745093",
+										"1": "Waikato District Health Board (Hamilton)",
+										"2": "19769",
+										"3": "WAI17806",
+										"4": "Permanent Full time",
+										"5": "Orthopaedic Fellow - Spine",
+										"6": "Waikato",
+										"7": "ASAP",
+										"8": "N/A",
+										"9": "N/A",
+										"10": "Kate Johnson",
+										"11": "2021-10-05T21:12:08Z",
+										"13": "2021-07-19T14:25:42Z",
+										"14": "Registrar",
+										"15": "Live",
+										"18": "6"
+									},
+									{
+										"0": "224764870",
+										"1": "Northern Regional Alliance (NRA)",
+										"2": "19766",
+										"3": "AUC07197",
+										"4": "Contract/Temp Full time",
+										"5": "Surgical Fellow",
+										"6": "Auckland",
+										"7": "ASAP",
+										"8": "N/A",
+										"9": "N/A",
+										"10": "Esther Weeks",
+										"11": "2021-10-05T21:13:55Z",
+										"13": "2021-08-03T16:00:48Z",
+										"14": "Registrar",
+										"15": "Live",
+										"18": "7"
+									},
+									{
+										"0": "224764872",
+										"1": "Northern Regional Alliance (NRA)",
+										"2": "19766",
+										"3": "AUC12265",
+										"4": "Permanent Full time",
+										"5": "2022 Training Year - Surgical Education and Training (SET) Registrars",
+										"6": "Auckland",
+										"7": "ASAP",
+										"8": "N/A",
+										"9": "N/A",
+										"10": "Esther Weeks",
+										"11": "2021-10-05T21:13:55Z",
+										"13": "2021-08-03T16:00:48Z",
+										"14": "Registrar",
+										"15": "Live",
+										"18": "8"
+									},
+									{
+										"0": "224791394",
+										"1": "Ara Poutama Aotearoa (Department of Corrections)",
+										"2": "19421",
+										"3": "APA/1560858",
+										"4": "Permanent",
+										"5": "Corrections Officer - Northland Region Corrections Facility (Kaikohe)",
+										"6": "Northland (Te Tai Tokerau)",
+										"7": "ASAP",
+										"8": "N/A",
+										"9": "$NEG",
+										"10": "Fiona Ramson",
+										"11": "2022-03-14T06:23:03Z",
+										"13": "2021-08-25T12:28:22Z",
+										"14": "CO CM",
+										"15": "Live",
+										"18": "9"
+									}
+								],
+								"schema": [
+									{
+										"key": "0",
+										"name": "JNCOUNTER",
+										"type": "string"
+									},
+									{
+										"key": "1",
+										"name": "AGENCYNAME",
+										"type": "string"
+									},
+									{
+										"key": "2",
+										"name": "AGENCYNUMBER",
+										"type": "string"
+									},
+									{
+										"key": "3",
+										"name": "JOBREFERENCE",
+										"type": "string"
+									},
+									{
+										"key": "4",
+										"name": "JOBTYPE",
+										"type": "string"
+									},
+									{
+										"key": "5",
+										"name": "POSITION",
+										"type": "string"
+									},
+									{
+										"key": "6",
+										"name": "LOCATION",
+										"type": "string"
+									},
+									{
+										"key": "7",
+										"name": "STARTDATE",
+										"type": "string"
+									},
+									{
+										"key": "8",
+										"name": "DURATION",
+										"type": "string"
+									},
+									{
+										"key": "9",
+										"name": "RATE",
+										"type": "string"
+									},
+									{
+										"key": "10",
+										"name": "CONTACT",
+										"type": "string"
+									},
+									{
+										"key": "11",
+										"name": "DATEINPUT",
+										"type": "string"
+									},
+									{
+										"key": "12",
+										"name": "OTHER",
+										"type": "string"
+									},
+									{
+										"key": "13",
+										"name": "ORIGINALDATE",
+										"type": "string"
+									},
+									{
+										"key": "14",
+										"name": "INDUSTRY",
+										"type": "string"
+									},
+									{
+										"key": "15",
+										"name": "Category",
+										"type": "string"
+									},
+									{
+										"key": "16",
+										"name": "ARCHIVEDDATE",
+										"type": "string"
+									},
+									{
+										"key": "17",
+										"name": "DELETEDDATE",
+										"type": "string"
+									},
+									{
+										"key": "18",
+										"name": "__index_level_0__",
+										"type": "bigint"
+									}
+								],
+								"truncated": false
+							},
+							"isSummary": false,
+							"language": "scala"
+						},
+						"persist_state": {
+							"view": {
+								"type": "details",
+								"chartOptions": {
+									"chartType": "bar",
+									"aggregationType": "sum",
+									"categoryFieldKeys": [
+										"0"
+									],
+									"seriesFieldKeys": [
+										"18"
+									],
+									"isStacked": false
+								}
+							}
+						}
+					},
+					"dfbec39d-2832-4ef8-a167-5ffc50349064": {
+						"type": "Synapse.DataFrame",
+						"sync_state": {
+							"table": {
+								"rows": [
+									{
+										"0": "Ministry for Primary Industries",
+										"1": "18153"
+									},
+									{
+										"0": "Waikato District Health Board ",
+										"1": "19769"
+									},
+									{
+										"0": "Northern Regional Alliance ",
+										"1": "19766"
+									},
+									{
+										"0": "Department of Corrections",
+										"1": "19421"
+									},
+									{
+										"0": "Southern District Health Board",
+										"1": "16983"
+									},
+									{
+										"0": "Capital and Coast District Health Board",
+										"1": "16620"
+									},
+									{
+										"0": "NZ Transport Agency ",
+										"1": "17804"
+									},
+									{
+										"0": "Ministry of Health",
+										"1": "18371"
+									},
+									{
+										"0": "Counties Manukau District Health Board ",
+										"1": "19774"
+									},
+									{
+										"0": "Waitemata District Health Board ",
+										"1": "19773"
+									}
+								],
+								"schema": [
+									{
+										"key": "0",
+										"name": "AGENCYNAME.1",
+										"type": "string"
+									},
+									{
+										"key": "1",
+										"name": "AGENCYNUMBER",
+										"type": "string"
+									}
+								],
+								"truncated": false
+							},
+							"isSummary": false,
+							"language": "scala"
+						},
+						"persist_state": {
+							"view": {
+								"type": "details",
+								"chartOptions": {
+									"chartType": "bar",
+									"aggregationType": "count",
+									"categoryFieldKeys": [
+										"0"
+									],
+									"seriesFieldKeys": [
+										"0"
+									],
+									"isStacked": false
+								}
+							}
+						}
+					}
+				}
+			},
+			"enableDebugMode": false,
+			"kernelspec": {
+				"name": "synapse_pyspark",
+				"display_name": "Synapse PySpark"
+			},
+			"language_info": {
+				"name": "python"
+			},
+			"a365ComputeOptions": {
+				"id": "/subscriptions/3db7cb1a-673f-4634-8591-83a43b03a0c3/resourceGroups/rg-dia-sbx01-aue-dps-dwh/providers/Microsoft.Synapse/workspaces/wssbx01auedps/bigDataPools/wssbx01auedpssp",
+				"name": "wssbx01auedpssp",
+				"type": "Spark",
+				"endpoint": "https://wssbx01auedps.dev.azuresynapse.net/livyApi/versions/2019-11-01-preview/sparkPools/wssbx01auedpssp",
+				"auth": {
+					"type": "AAD",
+					"authResource": "https://dev.azuresynapse.net"
+				},
+				"sparkVersion": "3.1",
+				"nodeCount": 3,
+				"cores": 4,
+				"memory": 28,
+				"extraHeader": null
+			},
+			"sessionKeepAliveTimeout": 30
+		},
+		"cells": [
+			{
+				"cell_type": "code",
+				"metadata": {
+					"microsoft": {
+						"language": "python"
+					},
+					"collapsed": false
+				},
+				"source": [
+					"%%pyspark\r\n",
+					"df = spark.read.load('abfss://jobsdata@strdiasbxdpsdl.dfs.core.windows.net/Jobs_newdata/jobs.parquet', format='parquet')\r\n",
+					"display(df.limit(10))"
+				],
+				"attachments": null,
+				"execution_count": 1
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"df = df.toPandas()"
+				],
+				"attachments": null,
+				"execution_count": 2
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"type(df)"
+				],
+				"attachments": null,
+				"execution_count": 3
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"df.columns"
+				],
+				"attachments": null,
+				"execution_count": 4
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"df['AGENCYNAME']"
+				],
+				"attachments": null,
+				"execution_count": 5
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"df['ner_id'] = df.groupby('AGENCYNAME').ngroup()\r\n",
+					""
+				],
+				"attachments": null,
+				"execution_count": 6
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"Agency = df[['AGENCYNAME', 'AGENCYNUMBER']]"
+				],
+				"attachments": null,
+				"execution_count": 12
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"Agency = Agency.drop_duplicates()"
+				],
+				"attachments": null,
+				"execution_count": 15
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"Agency.shape"
+				],
+				"attachments": null,
+				"execution_count": 16
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"Agency"
+				],
+				"attachments": null,
+				"execution_count": 17
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"for i in Agency['AGENCYNAME']:\r\n",
+					"    print(i)"
+				],
+				"attachments": null,
+				"execution_count": 19
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"Agency.to_csv(\"Agency.csv\")"
+				],
+				"attachments": null,
+				"execution_count": 20
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"Agency.to_csv('abfss://jobsdata@strdiasbxdpsdl.dfs.core.windows.net/Jobs_newdata/Agency.csv', sep=',', encoding='utf-8', index=False)"
+				],
+				"attachments": null,
+				"execution_count": 21
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					},
+					"microsoft": {
+						"language": "python"
+					},
+					"collapsed": false
+				},
+				"source": [
+					"%%pyspark\r\n",
+					"df = spark.read.load('abfss://jobsdata@strdiasbxdpsdl.dfs.core.windows.net/Jobs_newdata/Agency.csv', format='csv', header = 'True',\r\n",
+					"## If header exists uncomment line below\r\n",
+					"##, header=True\r\n",
+					")\r\n",
+					"display(df.limit(10))"
+				],
+				"attachments": null,
+				"execution_count": 51
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"df = df.toPandas()"
+				],
+				"attachments": null,
+				"execution_count": 52
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"df.columns"
+				],
+				"attachments": null,
+				"execution_count": 53
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"df.columns = ['Name', 'AgencyNo']"
+				],
+				"attachments": null,
+				"execution_count": 54
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"df['AgencyNo'] = df['AgencyNo'].astype(int)"
+				],
+				"attachments": null,
+				"execution_count": 55
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"df['Agency_ID'] = df.groupby('Name').ngroup()\r\n",
+					""
+				],
+				"attachments": null,
+				"execution_count": 39
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"df.dtypes"
+				],
+				"attachments": null,
+				"execution_count": 56
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"df[AgencyNo] = df['AgencyNo'].astype(int)"
+				],
+				"attachments": null,
+				"execution_count": 50
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"del df['Agency_ID']"
+				],
+				"attachments": null,
+				"execution_count": 43
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"df.to_parquet('abfss://jobsdata@strdiasbxdpsdl.dfs.core.windows.net/Jobs_newdata/AgencyUpdate.parquet')"
+				],
+				"attachments": null,
+				"execution_count": 57
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					""
+				],
+				"attachments": null,
+				"execution_count": null
+			}
+		]
+	}
+}

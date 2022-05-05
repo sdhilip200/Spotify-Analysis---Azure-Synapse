@@ -1,0 +1,33 @@
+{
+	"name": "DelimitedText6",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_dpsblob_jobsdata",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "Positions.csv",
+				"container": "job"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "POSITION",
+				"type": "String"
+			},
+			{
+				"name": "Type",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.Synapse/workspaces/datasets"
+}

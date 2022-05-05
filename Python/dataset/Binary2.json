@@ -1,0 +1,20 @@
+{
+	"name": "Binary2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "wssbx01auedps-WorkspaceDefaultStorage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "Test.csv",
+				"folderPath": "test",
+				"fileSystem": "strdiasbxdpsfs"
+			}
+		}
+	},
+	"type": "Microsoft.Synapse/workspaces/datasets"
+}

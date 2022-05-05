@@ -1,0 +1,29 @@
+{
+	"name": "dataflow-ICT-Capability",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pl_ICT_Capability_planner",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Week",
+				"interval": 1,
+				"startTime": "2022-04-11T10:40:00",
+				"timeZone": "New Zealand Standard Time",
+				"schedule": {
+					"weekDays": [
+						"Monday"
+					]
+				}
+			}
+		}
+	}
+}

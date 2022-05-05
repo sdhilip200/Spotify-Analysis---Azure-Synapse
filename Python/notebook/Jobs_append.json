@@ -1,0 +1,1890 @@
+{
+	"name": "Jobs_append",
+	"properties": {
+		"nbformat": 4,
+		"nbformat_minor": 2,
+		"bigDataPool": {
+			"referenceName": "wssbx01auedpssp",
+			"type": "BigDataPoolReference"
+		},
+		"sessionProperties": {
+			"driverMemory": "28g",
+			"driverCores": 4,
+			"executorMemory": "28g",
+			"executorCores": 4,
+			"numExecutors": 2,
+			"conf": {
+				"spark.dynamicAllocation.enabled": "false",
+				"spark.dynamicAllocation.minExecutors": "2",
+				"spark.dynamicAllocation.maxExecutors": "2",
+				"spark.autotune.trackingId": "8d5529fb-2cc2-481b-9ff6-c0e0955a89b1"
+			}
+		},
+		"metadata": {
+			"saveOutput": true,
+			"synapse_widget": {
+				"version": "0.1",
+				"state": {
+					"44c70116-4b7c-4444-894b-15c9c3340e33": {
+						"type": "Synapse.DataFrame",
+						"sync_state": {
+							"table": {
+								"rows": [
+									{
+										"0": "222780019",
+										"1": "Ministry for Primary Industries",
+										"2": "18153",
+										"3": "MPI17/1266640",
+										"4": "Full Time",
+										"5": "Veterinarians - EOI",
+										"6": "National",
+										"7": "ASAP",
+										"8": "N/A",
+										"9": "$NEG",
+										"10": "Sean Hill",
+										"11": "2022-03-08T13:13:41Z",
+										"12": "Please send Resumes (CV's) as WORD (any version) attachments",
+										"14": "2017-03-22T14:51:30Z",
+										"15": "Veterinarians",
+										"16": "CURRENT"
+									},
+									{
+										"0": "224745057",
+										"1": "Waikato District Health Board (Hamilton)",
+										"2": "19769",
+										"3": "WAI11823",
+										"4": "Permanent Part time",
+										"5": "Specialist Radiologist - Paediatrics",
+										"6": "Waikato",
+										"7": "ASAP",
+										"8": "N/A",
+										"9": "N/A",
+										"10": "Madeleine Stapleton",
+										"11": "2021-10-05T21:12:08Z",
+										"12": "Please send Resumes (CV's) as WORD (any version) attachments",
+										"14": "2021-07-19T14:25:40Z",
+										"15": "Senior Medical Officers, Medical Officers and Fellows",
+										"16": "CURRENT"
+									},
+									{
+										"0": "224745058",
+										"1": "Waikato District Health Board (Hamilton)",
+										"2": "19769",
+										"3": "WAI13616",
+										"4": "Contract/Temp Full time",
+										"5": "Fellow -  Critical  Care",
+										"6": "Waikato",
+										"7": "ASAP",
+										"8": "N/A",
+										"9": "N/A",
+										"10": "Madeleine Stapleton",
+										"11": "2022-03-17T10:30:45Z",
+										"12": "Please send Resumes (CV's) as WORD (any version) attachments",
+										"14": "2021-07-19T14:25:41Z",
+										"15": "Senior Medical Officers, Medical Officers and Fellows",
+										"16": "CURRENT"
+									},
+									{
+										"0": "224745073",
+										"1": "Waikato District Health Board (Hamilton)",
+										"2": "19769",
+										"3": "WAI16936",
+										"4": "Permanent Full time",
+										"5": "Pharmacist - Quality and Safe Use of Medicines ",
+										"6": "Waikato",
+										"7": "ASAP",
+										"8": "N/A",
+										"9": "N/A",
+										"10": "Elysia Koretz",
+										"11": "2022-03-10T14:30:39Z",
+										"12": "Please send Resumes (CV's) as WORD (any version) attachments",
+										"14": "2021-07-19T14:25:41Z",
+										"15": "Technical",
+										"16": "CURRENT"
+									},
+									{
+										"0": "224745091",
+										"1": "Waikato District Health Board (Hamilton)",
+										"2": "19769",
+										"3": "WAI17803",
+										"4": "Permanent Full time",
+										"5": "Orthopaedics Fellow - Trauma",
+										"6": "Waikato",
+										"7": "ASAP",
+										"8": "N/A",
+										"9": "N/A",
+										"10": "Kate Johnson",
+										"11": "2021-10-05T21:12:08Z",
+										"12": "Please send Resumes (CV's) as WORD (any version) attachments",
+										"14": "2021-07-19T14:25:42Z",
+										"15": "Registrar",
+										"16": "CURRENT"
+									},
+									{
+										"0": "224745092",
+										"1": "Waikato District Health Board (Hamilton)",
+										"2": "19769",
+										"3": "WAI17804",
+										"4": "Permanent Full time",
+										"5": "Orthopaedics Fellow - Arthroplasty",
+										"6": "Waikato",
+										"7": "ASAP",
+										"8": "N/A",
+										"9": "N/A",
+										"10": "Kate Johnson",
+										"11": "2021-10-05T21:12:08Z",
+										"12": "Please send Resumes (CV's) as WORD (any version) attachments",
+										"14": "2021-07-19T14:25:42Z",
+										"15": "Registrar",
+										"16": "CURRENT"
+									},
+									{
+										"0": "224745093",
+										"1": "Waikato District Health Board (Hamilton)",
+										"2": "19769",
+										"3": "WAI17806",
+										"4": "Permanent Full time",
+										"5": "Orthopaedic Fellow - Spine",
+										"6": "Waikato",
+										"7": "ASAP",
+										"8": "N/A",
+										"9": "N/A",
+										"10": "Kate Johnson",
+										"11": "2021-10-05T21:12:08Z",
+										"12": "Please send Resumes (CV's) as WORD (any version) attachments",
+										"14": "2021-07-19T14:25:42Z",
+										"15": "Registrar",
+										"16": "CURRENT"
+									},
+									{
+										"0": "224764870",
+										"1": "Northern Regional Alliance (NRA)",
+										"2": "19766",
+										"3": "AUC07197",
+										"4": "Contract/Temp Full time",
+										"5": "Surgical Fellow",
+										"6": "Auckland",
+										"7": "ASAP",
+										"8": "N/A",
+										"9": "N/A",
+										"10": "Esther Weeks",
+										"11": "2021-10-05T21:13:55Z",
+										"12": "Please send Resumes (CV's) as WORD (any version) attachments",
+										"14": "2021-08-03T16:00:48Z",
+										"15": "Registrar",
+										"16": "CURRENT"
+									},
+									{
+										"0": "224764872",
+										"1": "Northern Regional Alliance (NRA)",
+										"2": "19766",
+										"3": "AUC12265",
+										"4": "Permanent Full time",
+										"5": "2022 Training Year - Surgical Education and Training (SET) Registrars",
+										"6": "Auckland",
+										"7": "ASAP",
+										"8": "N/A",
+										"9": "N/A",
+										"10": "Esther Weeks",
+										"11": "2021-10-05T21:13:55Z",
+										"12": "Please send Resumes (CV's) as WORD (any version) attachments",
+										"14": "2021-08-03T16:00:48Z",
+										"15": "Registrar",
+										"16": "CURRENT"
+									},
+									{
+										"0": "224791394",
+										"1": "Ara Poutama Aotearoa (Department of Corrections)",
+										"2": "19421",
+										"3": "APA/1560858",
+										"4": "Permanent",
+										"5": "Corrections Officer - Northland Region Corrections Facility (Kaikohe)",
+										"6": "Northland (Te Tai Tokerau)",
+										"7": "ASAP",
+										"8": "N/A",
+										"9": "$NEG",
+										"10": "Fiona Ramson",
+										"11": "2022-03-14T06:23:03Z",
+										"12": "Please send Resumes (CV's) as WORD (any version) attachments",
+										"14": "2021-08-25T12:28:22Z",
+										"15": "CO CM",
+										"16": "CURRENT"
+									}
+								],
+								"schema": [
+									{
+										"key": "0",
+										"name": "JNCOUNTER",
+										"type": "string"
+									},
+									{
+										"key": "1",
+										"name": "AGENCYNAME",
+										"type": "string"
+									},
+									{
+										"key": "2",
+										"name": "AGENCYNUMBER",
+										"type": "string"
+									},
+									{
+										"key": "3",
+										"name": "JOBREFERENCE",
+										"type": "string"
+									},
+									{
+										"key": "4",
+										"name": "JOBTYPE",
+										"type": "string"
+									},
+									{
+										"key": "5",
+										"name": "POSITION",
+										"type": "string"
+									},
+									{
+										"key": "6",
+										"name": "LOCATION",
+										"type": "string"
+									},
+									{
+										"key": "7",
+										"name": "STARTDATE",
+										"type": "string"
+									},
+									{
+										"key": "8",
+										"name": "DURATION",
+										"type": "string"
+									},
+									{
+										"key": "9",
+										"name": "RATE",
+										"type": "string"
+									},
+									{
+										"key": "10",
+										"name": "CONTACT",
+										"type": "string"
+									},
+									{
+										"key": "11",
+										"name": "DATEINPUT",
+										"type": "string"
+									},
+									{
+										"key": "12",
+										"name": "NOTES",
+										"type": "string"
+									},
+									{
+										"key": "13",
+										"name": "OTHER",
+										"type": "string"
+									},
+									{
+										"key": "14",
+										"name": "ORIGINALDATE",
+										"type": "string"
+									},
+									{
+										"key": "15",
+										"name": "INDUSTRY",
+										"type": "string"
+									},
+									{
+										"key": "16",
+										"name": "JOB_STATUS",
+										"type": "string"
+									}
+								],
+								"truncated": false
+							},
+							"isSummary": false,
+							"language": "scala"
+						},
+						"persist_state": {
+							"view": {
+								"type": "details",
+								"chartOptions": {
+									"chartType": "bar",
+									"aggregationType": "count",
+									"categoryFieldKeys": [
+										"0"
+									],
+									"seriesFieldKeys": [
+										"0"
+									],
+									"isStacked": false
+								}
+							}
+						}
+					},
+					"825348ac-59f2-492c-aecc-a73e1ca094f4": {
+						"type": "Synapse.DataFrame",
+						"sync_state": {
+							"table": {
+								"rows": [
+									{
+										"0": "223828210",
+										"1": "NZ Police",
+										"2": "16712",
+										"3": "NZ/1550A",
+										"4": "Ongoing - Full Time",
+										"5": "Police Communicator",
+										"6": "<p style=\"margin: 0cm 0cm 0pt; text-align: center;\" align=\"center\"><span style=\"font-family: Arial, Helvetica, sans-serif;\"><span style=\"font-size: 14px;\"><strong><span style=\"color: #000000;\">Police Communicator</span></strong></span></span></p>\n<p style=\"margin: 0cm 0cm 0pt; text-align: center;\" align=\"center\"><span style=\"font-family: Arial, Helvetica, sans-serif;\"><span style=\"font-size: 14px;\"><strong><span style=\"color: #000000;\">Auckland</span></strong></span></span></p>\n<p style=\"margin: 0cm 0cm 0pt; text-align: center;\" align=\"center\"><span style=\"font-family: Arial, Helvetica, sans-serif;\"><span style=\"font-size: 14px;\"><strong><span style=\"color: #000000;\">Permanent, Full Time</span></strong></span></span></p>\n<p style=\"margin: 0cm 0cm 0pt; text-align: center;\" align=\"center\"><span style=\"font-family: Arial, Helvetica, sans-serif;\"><span style=\"font-size: 14px;\"><strong><span style=\"color: #000000;\">Annual Salary Range </span></strong><strong>$49,158 - $56,220</strong></span></span></p>\n<p style=\"margin: 0cm 0cm 0pt; text-align: center;\" align=\"center\"><span style=\"font-family: Arial, Helvetica, sans-serif;\"><span style=\"font-size: 14px;\"><strong><span style=\"color: #000000;\">Job Requisition 1550</span></strong></span></span></p>\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Arial, Helvetica, sans-serif;\"><span style=\"font-size: 14px;\"><span style=\"color: #000000;\">&#160;</span></span></span></p>\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Arial, Helvetica, sans-serif;\"><span style=\"font-size: 14px;\"><span style=\"color: #000000;\">&#160;</span></span></span></p>\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Arial, Helvetica, sans-serif;\"><span style=\"font-size: 14px;\"><strong><span style=\"color: #000000;\">Summary:</span></strong></span></span></p>\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Arial, Helvetica, sans-serif;\"><span style=\"font-size: 14px;\"><span style=\"color: #000000;\">Join a contact centre with true purpose, making a difference directly to New Zealand communities. Use your communication and problem solving skills to impact other Kiwi's lives every day. </span></span></span></p>\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Arial, Helvetica, sans-serif;\"><span style=\"font-size: 14px;\"><span style=\"color: #000000;\">&#160;</span></span></span></p>\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Arial, Helvetica, sans-serif;\"><span style=\"font-size: 14px;\"><strong><span style=\"color: #000000;\">Bullet points:</span></strong></span></span></p>\n<ul>\n<li><span style=\"font-family: Arial, Helvetica, sans-serif;\"><span style=\"font-size: 14px;\"><span style=\"font-style: normal;\"><span style=\"font-weight: normal;\">Making our communities feel and be safer by taking phone calls from those in need</span></span></span></span></li>\n<li><span style=\"font-family: Arial, Helvetica, sans-serif;\"><span style=\"font-size: 14px;\"><span style=\"font-style: normal;\"><span style=\"font-weight: normal;\">A tight knit culture of support, where people care</span></span></span></span></li>\n<li><span style=\"font-family: Arial, Helvetica, sans-serif;\"><span style=\"font-size: 14px;\"><span style=\"font-style: normal;\"><span style=\"font-weight: normal;\">More than a job, with proven career development pathways About NZ Police:</span></span></span></span></li>\n</ul>\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Arial, Helvetica, sans-serif;\"><span style=\"font-size: 14px;\"><span style=\"color: #000000;\">&#160;</span></span></span></p>\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Arial, Helvetica, sans-serif;\"><span style=\"font-size: 14px;\"><strong><span style=\"color: #000000;\">About New Zealand Police:</span></strong></span></span></p>\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Arial, Helvetica, sans-serif;\"><span style=\"font-size: 14px;\"><span style=\"color: #000000;\">NZ Police is a hugely important organisation with circa 14,000 staff nationwide serving our communities through a variety of roles.</span></span></span></p>\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Arial, Helvetica, sans-serif;\"><span style=\"font-size: 14px;\"><span style=\"color: #000000;\">&#160;</span></span></span></p>\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Arial, Helvetica, sans-serif;\"><span style=\"font-size: 14px;\"><strong><span style=\"color: #000000;\">About the role:</span></strong></span></span></p>\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Arial, Helvetica, sans-serif;\"><span style=\"font-size: 14px;\"><span style=\"color: #000000;\">You will be the first point of contact to answer inbound enquiries from the public at their time of need. Whether you're dealing with emergency or non-urgent enquiries, you will be trained to alleviate stress, accurately identify the needs of your caller and ensure the appropriate Police response via your knowledge of Police procedure. </span></span></span></p>\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Arial, Helvetica, sans-serif;\"><span style=\"font-size: 14px;\"><span style=\"color: #000000;\">While this role is meaningful and rewarding, with a highly supportive environment, it's also the start of a career.&#160; In addition to a competitive salary NZ Police are committed to ensuring quality people stay and develop, with structured pathways into many other roles, including a police officer. </span></span></span></p>\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Arial, Helvetica, sans-serif;\"><span style=\"font-size: 14px;\"><span style=\"color: #000000;\">&#160;</span></span></span></p>\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Arial, Helvetica, sans-serif;\"><span style=\"font-size: 14px;\"><strong><span style=\"color: #000000;\">About you:</span></strong></span></span></p>\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Arial, Helvetica, sans-serif;\"><span style=\"font-size: 14px;\"><span style=\"color: #000000;\">It takes a special person to do this role and great Police Communicators come from many different backgrounds. What they all common have in is:</span></span></span></p>\n<ul>\n<li><span style=\"font-family: Arial, Helvetica, sans-serif;\"><span style=\"font-size: 14px;\"><span style=\"font-style: normal;\"><span style=\"font-weight: normal;\">A passion and empathy for helping others in need</span></span></span></span></li>\n<li><span style=\"font-family: Arial, Helvetica, sans-serif;\"><span style=\"font-size: 14px;\"><span style=\"font-style: normal;\"><span style=\"font-weight: normal;\">Great questioning and listening skills to make quick, accurate decisions,</span></span></span></span></li>\n<li><span style=\"font-family: Arial, Helvetica, sans-serif;\"><span style=\"font-size: 14px;\"><span style=\"font-style: normal;\"><span style=\"font-weight: normal;\">Ability to think on your feet; and</span></span></span></span></li>\n<li><span style=\"font-family: Arial, Helvetica, sans-serif;\"><span style=\"font-size: 14px;\"><span style=\"font-style: normal;\"><span style=\"font-weight: normal;\">Resilience and professionalism in the face of adversity.</span></span></span></span></li>\n</ul>\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Arial, Helvetica, sans-serif;\"><span style=\"font-size: 14px;\"><span style=\"color: #000000;\">Taking enquiries through a variety of channels you'll make people be safe and feel safe, in so doing build trust and confidence in New Zealand Police by making every contact count.</span></span></span></p>\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Arial, Helvetica, sans-serif;\"><span style=\"font-size: 14px;\"><span style=\"color: #000000;\">&#160;</span></span></span></p>\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Arial, Helvetica, sans-serif;\"><span style=\"font-size: 14px;\"><strong><span style=\"color: #000000;\">What Next?</span></strong></span></span></p>\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Arial, Helvetica, sans-serif;\"><span style=\"font-size: 14px;\"><span style=\"color: #000000;\">Interested to know more? Click apply now to learn about this and other NZ Police operational support roles and the recruitment process from here. To be successful you'll need to complete Police vetting and be able to work shifts.</span></span></span></p>\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Arial, Helvetica, sans-serif;\"><span style=\"font-size: 14px;\"><span style=\"color: #000000;\">Applied previously but still really interested in a career with NZ Police? We'd love to hear from you anyway as the requirements for success in this role have recently changed. </span></span></span></p>\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Arial, Helvetica, sans-serif;\"><span style=\"font-size: 14px;\"><span style=\"color: #000000;\">&#160;</span></span></span></p>\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Arial, Helvetica, sans-serif;\"><span style=\"font-size: 14px;\"><strong><span style=\"color: #000000;\">To apply please click this link:&#160; </span></strong></span></span></p>\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Arial, Helvetica, sans-serif;\"><span style=\"font-size: 14px;\"><a href=\"https://hellonzpolice.applytojob.com/apply/74E2Qo9RwG/Customer-Services-Police-Communicator-Auckland?source=Hudson+post\" data-cke-saved-href=\"https://hellonzpolice.applytojob.com/apply/74E2Qo9RwG/Customer-Services-Police-Communicator-Auckland?source=Hudson+post\"><span style=\"color: #0563c1;\">https://hellonzpolice.applytojob.com/apply/74E2Qo9RwG/Customer-Services-Police-Communicator-Auckland?source=Hudson+post</span></a><span style=\"color: #000000;\"> &#160;</span><strong><span style=\"color: #c0392b;\">Please do no click on the &#8216;Apply Online' button.</span></strong></span></span></p>\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Arial, Helvetica, sans-serif;\"><span style=\"font-size: 14px;\"><span style=\"color: #000000;\">&#160;</span></span></span></p>\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Arial, Helvetica, sans-serif;\"><span style=\"font-size: 14px;\"><strong><span style=\"color: #000000;\">Video:</span></strong></span></span></p>\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Arial, Helvetica, sans-serif;\"><span style=\"font-size: 14px;\"><a href=\"https://youtu.be/HSWq1dOIKOg\" data-cke-saved-href=\"https://youtu.be/HSWq1dOIKOg\"><span style=\"color: #0563c1;\">https://youtu.be/HSWq1dOIKOg</span></a></span></span></p>",
+										"7": "Auckland",
+										"8": "N/A",
+										"9": "N/A",
+										"10": "$NEG",
+										"11": "Hr Uppernorth",
+										"12": "2019-09-04 10:22:10.0000000",
+										"13": "Please send Resumes (CV's) as WORD (any version) attachments",
+										"15": "2019-09-04 10:22:10.0000000",
+										"17": "ARCHIVE",
+										"18": "2022-01-02 01:00:06.0000000"
+									},
+									{
+										"0": "223828278",
+										"1": "NZ Police",
+										"2": "16712",
+										"3": "NZ/10574",
+										"4": "Ongoing - Full Time",
+										"5": "Police Communicator",
+										"6": "<p style=\"margin: 0cm 0cm 0pt; text-align: center;\" align=\"center\"><strong><span style=\"color: #000000;\">Police Communicator</span></strong></p>\n<p style=\"margin: 0cm 0cm 0pt; text-align: center;\" align=\"center\"><strong><span style=\"color: #000000;\">Wellington</span></strong></p>\n<p style=\"margin: 0cm 0cm 0pt; text-align: center;\" align=\"center\"><strong><span style=\"color: #000000;\">Permanent, Full Time</span></strong></p>\n<p style=\"margin: 0cm 0cm 0pt; text-align: center;\" align=\"center\"><strong><span style=\"color: #000000;\">Annual Salary Range </span></strong><strong>$49,158 - $56,220</strong></p>\n<p style=\"margin: 0cm 0cm 0pt; text-align: center;\" align=\"center\"><strong><span style=\"color: #000000;\">Job Requisition 10574</span></strong></p>\n<p style=\"margin: 0cm 0cm 8pt;\">&#160;</p>\n<p style=\"margin: 0cm 0cm 8pt;\">&#160;</p>\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"color: #000000;\">As an emergency communicator you will be taking direct incoming calls from the public. Being one of the highest point of contact our community has with New Zealand Police</span></p>\n<p style=\"margin: 0cm 0cm 8pt;\">&#160;</p>\n<ul>\n<li><span style=\"font-weight: normal;\">Wellington Central location</span></li>\n<li><span style=\"font-weight: normal;\">Permanent full-time role</span></li>\n<li><span style=\"font-weight: normal;\">Opportunity to serve your community</span></li>\n</ul>\n<p>&#160;</p>\n<p>&#160;</p>\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"color: #000000;\">New Zealand Police is the lead agency responsible for reducing crime and enhancing community safety. They work in partnership with individuals, communities, businesses and other public sector agencies to achieve their vision of having trust and confidence of all.</span></p>\n<p style=\"margin: 0cm 0cm 8pt;\">&#160;</p>\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"color: #000000;\">As an emergency communicator you will be taking direct incoming calls from the public. Being one of the highest point of contact our community has with New Zealand Police, this role is key to building trusted confidence on every call to ensure public safety at all times.</span></p>\n<p style=\"margin: 0cm 0cm 8pt;\">&#160;</p>\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"color: #000000;\">This role operates 24/7 and will be on a rotating shift cycle.</span></p>\n<p style=\"margin: 0cm 0cm 8pt;\">&#160;</p>\n<p style=\"margin: 0cm 0cm 8pt;\"><strong><span style=\"color: #000000;\">Key Responsibilities (but not limited to):</span></strong></p>\n<p style=\"margin: 0cm 0cm 8pt;\">&#160;</p>\n<ul>\n<li><span style=\"font-style: normal;\"><span style=\"font-weight: normal;\">Respond to emergency calls in a timely and suitable response manner</span></span></li>\n<li><span style=\"font-style: normal;\"><span style=\"font-weight: normal;\">Be the initial response to emergency incidents ensuring full information is clear, concise and given appropriate priority and risk</span></span></li>\n<li><span style=\"font-style: normal;\"><span style=\"font-weight: normal;\">Triage calls of non-emergency to the right channels without compromising service</span></span></li>\n<li><span style=\"font-style: normal;\"><span style=\"font-weight: normal;\">Participate in ongoing training and development</span></span></li>\n<li><span style=\"font-style: normal;\"><span style=\"font-weight: normal;\">Develop and maintain working relationships both internally and externally</span></span></li>\n</ul>\n<p>&#160;</p>\n<p><strong><span style=\"color: #000000;\">To be successful you will be able to:</span></strong></p>\n<p>&#160;</p>\n<ul>\n<li><span style=\"font-weight: normal;\">Be victim focused treating each person with respect and dignity at all times</span></li>\n<li><span style=\"font-weight: normal;\">Complete tasks to the best of your ability and quickly move on to the next call</span></li>\n<li><span style=\"font-weight: normal;\">Act with resilience and perseverance in the face of adversity</span></li>\n<li><span style=\"font-weight: normal;\">Act with integrity and professionalism</span></li>\n<li><span style=\"font-weight: normal;\">Listen effectively and provide the best solution</span></li>\n<li><span style=\"font-weight: normal;\">Work to build trust and confidence with the community</span></li>\n<li><span style=\"font-weight: normal;\">Be someone who takes a positive view to feedback and enjoy working towards personal goals</span></li>\n</ul>\n<p>&#160;</p>\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"color: #000000;\">This is a great opportunity to be part of an organisation that is committed to making a difference across New Zealand communities. As an employee of the New Zealand Police you will have an advantage when applying for other positions within the New Zealand Police. </span></p>\n<p style=\"margin: 0cm 0cm 8pt;\">&#160;</p>\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"color: #000000;\">If you have got what it takes and are interested in finding out more about this position then click apply now to learn more about this and other NZ Police operational support roles, the recruitment process and the application criteria. To be successful you will need to clear extensive police vetting and have full working rights in New Zealand.</span></p>\n<p style=\"margin: 0cm 0cm 8pt;\">&#160;</p>\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"color: #000000;\">Applied previously but still really interested in a career with NZ Police? We would love to hear from you as the recruitment process has recently changed.&#160;&#160;</span></p>\n<p style=\"margin: 0cm 0cm 8pt;\">&#160;</p>\n<p style=\"margin: 0cm 0cm 8pt;\"><strong><span style=\"color: #000000;\">To apply please click this link:&#160; </span></strong></p>\n<p style=\"margin: 0cm 0cm 8pt;\"><a href=\"https://nz.hudson.com/jobs/Administration-Office-Support-jobs/-Contact-Centre-jobs/Emergency-Communicator-job/2655875\" data-cke-saved-href=\"https://nz.hudson.com/jobs/Administration-Office-Support-jobs/-Contact-Centre-jobs/Emergency-Communicator-job/2655875\"><span style=\"color: #0066cc;\">https://nz.hudson.com/jobs/Administration-Office-Support-jobs/-Contact-Centre-jobs/Emergency-Communicator-job/2655875</span></a><strong>&#160;Please do no click on the &#8216;Apply Online' button.</strong></p>\n<p style=\"margin: 0cm 0cm 8pt;\">&#160;</p>\n<p style=\"margin: 0cm 0cm 8pt;\"><em><span style=\"text-decoration: underline;\"><span style=\"color: #000000;\">Video:</span></span></em></p>\n<p style=\"margin: 0cm 0cm 8pt;\"><a href=\"https://youtu.be/HSWq1dOIKOg\" data-cke-saved-href=\"https://youtu.be/HSWq1dOIKOg\"><span style=\"color: #0563c1;\">https://youtu.be/HSWq1dOIKOg</span></a></p>\n<p style=\"margin: 0cm 0cm 8pt;\">&#160;</p>",
+										"7": "Wellington - Wairarapa",
+										"8": "N/A",
+										"9": "N/A",
+										"10": "$NEG",
+										"11": "Hr Uppernorth",
+										"12": "2019-09-04 10:30:35.0000000",
+										"13": "Please send Resumes (CV's) as WORD (any version) attachments",
+										"15": "2019-09-04 10:30:35.0000000",
+										"17": "ARCHIVE",
+										"18": "2022-01-02 01:00:06.0000000"
+									},
+									{
+										"0": "224311663",
+										"1": "Southern District Health Board",
+										"2": "16983",
+										"3": "NZ/EOIMHN1A",
+										"4": "Ongoing - Part Time",
+										"5": "Registered Nurses - Work in New Zealand",
+										"6": "<p><strong>Mental Health, Addiction and Intellectual Disability Services </strong></p>\n<p>District wide - Otago and Southland</p>\n<p>Forensic, Intellectual Disability Services (Medium Secure Unit), Adult Intensive and Acute Care inpatient.</p>\n<ul type=\"disc\">\n<li>Opportunities available now - think Southern District Health Board</li>\n<li>Have you recently returned to NZ?</li>\n<li>Are you looking for permanent, full-time or part-time positions?</li>\n<li>Safe, family friendly with excellent schooling options</li>\n</ul>\n<p>Expressions of interest sought from experienced Mental Health Nurses. Opportunities now and in the future.</p>\n<p>Experience a new kind of life, while making satisfying use of your training as a Registered Nurse.</p>\n<p><strong>The Southern DHB </strong></p>\n<p>Here at Southern DHB, we're up to the challenge of realising our vision of Better Health, Better Lives, Whanau Ora; and to help us achieve this we're very focused on bringing into our organisation people who display our values of being Kind, Open and Positive, with a sense of community.</p>\n<p>We're seeking expressions of interest from experienced Mental Health Nurses for opportunities (current and upcoming) across our Mental Health, Addiction and Intellectual Disability Service. These include Emergency Psychiatric Care, Forensic, Inpatient, Acute, rehabilitation, Intellectual Disability and Community; and cover the whole life spectrum of Child, Youth, Family, Adult and Older People.</p>\n<p><strong>The location </strong></p>\n<p>At the very top of the list of reasons to join us at Southern DHB is the lifestyle. We're home to the most beautiful landscapes in NZ, if it's the great outdoors that presses your buttons; and we're within easy reach of the likes of Queenstown if it's adrenalin you seek. It's all here - the opportunity to create a fantastic work/life balance is waiting for you. The Southern district offers the benefits of excellent amenities, first class primary through to tertiary education, minimal traffic and friendly locals, but with the same sporting and cultural activities you'd find anywhere else. Whether it's surfing, kayaking or sailing; skiing, hunting or fishing; theatre, live-music or art - there's literally something for everyone. Check out <a href=\"https://u3545319.ct.sendgrid.net/ls/click?upn=0gORqKqHUi-2Bt-2B1kr3aFwtT0q28Jn5r6tcunPt7hBmOkYEkZEan22BgSIHM2OYso7-yWg_R4hddW4LkaRjVIGa9zMzP-2BQePrqkYHNTXUBrD2FRaMTpdZ28hxamURoutUPfWI45pqHpy3I3Kcs5P6q3TnFJceTnEf05-2FRfJaPcdRQ2kiO8vVBkV11h1Av9AkZyNt5OJy8S3Qme6KLaZc71bMrggyYG-2FyexLzvE2It384oIrwX9Lyr7PZA33oNdYd6OaGu-2BYOIBdNBKEFrLwEcfQkLm1TsBRc4RgQ6BNLDgkBF5C4B0sm5-2B1d2jSFirdaTXqjJz-2B\" target=\"_blank\">https://southernhealthcareers.nz/</a> for what the region and we can offer you and your whanau.</p>\n<p><strong>About you </strong></p>\n<p>A strong knowledge base is essential to meeting the challenge of caring for people in a mental health environment as no two days are the same. You will have a high standard of competence and performance, and enjoy the challenge of working with patients in this setting.</p>\n<p>You will work alongside dynamic and committed multidisciplinary teams and with ready access to other mental health professionals' means that you truly can put the patient and their needs at the centre of everything you do.</p>\n<p>&#160;</p>\n<p>We are particularly interested in hearing from experienced Registered Nurses who are dynamic and innovative and wish to join a service that is committed to high standards of practice that supports on-going learning and professional development.</p>\n<p>Become part of a group of staff that really do work as a team.</p>\n<p>If you're thinking about or have ever thought about making the move, then now's the perfect time! If you have the experience and skillset that we're looking for, we'll put you in touch with the right Mental Health service so you can find out more, and we can explore employment options with you. I look forward to talking with you soon.</p>\n<p>You will need NZ registration with a scope of practice that allows you to work in Mental Health and an Annual Practicing Certificate. If you are not currently registered in New Zealand information on registration is available at <a href=\"https://u3545319.ct.sendgrid.net/ls/click?upn=wHtBwMpPUJw-2Beok1YxSgFW-2FUI7hVpPY6zkYms4hW-2Br5Ip9XtCT2JNfVI7L7iwf9WcHduEJELBOPpG-2FMv-2BXOOK1wQ9MQ2vX59oO8aFSpI8-2Bg-3DTj0G_R4hddW4LkaRjVIGa9zMzP-2BQePrqkYHNTXUBrD2FRaMTpdZ28hxamURoutUPfWI45pqHpy3I3Kcs5P6q3TnFJcVXkG5WALWez0hSAk3ApCh-2BEq-2FWKn4bcvuvW6jF4opQruw0GC0wgt9ITkAPeHONFxxB-2Fr0358i1EVfCsibN3yr27h9LEkJc-2BnMM-2F5HCxfqLJCkVIzD2IQoqE0LaLuoovCq5QbUY6VkyN4tYpYL7M-2FnG8Rs0VWocFuASXaJHGwEKM\">http://www.nursingcouncil.org.nz/Nurses/International-registration</a></p>\n<p><strong>Closing date: open </strong></p>\n<p>For further information please contact Caroline Godfrey, Recruitment Advisor - Mental Health.</p>\n<p>Phone (03) 214 5769 or email <a href=\"mailto:caroline.godfrey@southerndhb.govt.nz\">caroline.godfrey@southerndhb.govt.nz</a></p>\n<p><strong>To apply</strong></p>\n<p>We only accept online applications. Please apply via our website:&#160;<a href=\"https://u3545319.ct.sendgrid.net/ls/click?upn=wHtBwMpPUJw-2Beok1YxSgFSNuzg9V1VcvwoJ3vfH6aX8-2BnQkjp5MO0IM-2BWglB-2BWyoNV3J_R4hddW4LkaRjVIGa9zMzP-2BQePrqkYHNTXUBrD2FRaMTpdZ28hxamURoutUPfWI45pqHpy3I3Kcs5P6q3TnFJcR7Gi8ieV32QjkEkDs6XIShvCqg4UjXhMF-2FTGcLD4yiB9RLsR-2FrYk9PilYo0ymZhnghzPaMwNqYMeC7kDXLnGrin0Cnxx-2BCHICgwl0fcOPfWTP1buXReCpju-2F1xQYWQVqpHFWYNmemySNqdHyCSWHxuzT020jIdOnIzjVdHc81JE\">www.southernhealth.nz</a></p>",
+										"7": "Otago",
+										"8": "N/A",
+										"9": "N/A",
+										"10": "$NEG",
+										"11": "Toni Naylor",
+										"12": "2020-10-15 13:42:58.0000000",
+										"13": "Please send Resumes (CV's) as WORD (any version) attachments",
+										"15": "2020-10-15 13:42:58.0000000",
+										"17": "ARCHIVE",
+										"18": "2021-12-26 01:00:13.0000000"
+									},
+									{
+										"0": "224349710",
+										"1": "Ministry for Primary Industries",
+										"2": "18153",
+										"3": "MPI20/1495206",
+										"4": "Fixed Term FT",
+										"5": "Programme and Investment Analyst",
+										"6": "<ul type=\"disc\">\n<li>Work in a high-profile area and make a significant impact for New Zealand.</li>\n<li>Play a lead role and be responsible for advice and support for an exciting piece of work</li>\n<li>Help grow NZ in a very real way</li>\n</ul>\n<p>Agriculture &amp; Investment Services works to create a thriving and sustainable future for farmers, growers, primary industries, and rural communities. It also cares for the health and well-being of animals. We work across MPI and with other agencies to support innovative farm land use practices that deliver more value and improved environmental outcomes. The Investment Programmes Directorate works across the value chain from the farm-gate through to finished products and we have supported a number of initiatives and research programmes in New Zealand using our suite of funding products.</p>\n<p>&#160;</p>\n<p><strong>K&#333;rero m&#333; te t&#363;ranga</strong>&#160;-&#160;<strong>About the role</strong></p>\n<p>We are looking for an experienced Programme and Investment Analyst to join the Investment Programmes Directorate on a 24-month fixed term contract, with the potential to extend. You'll get to be delivering investment through Sustainable Food &amp; Fibre Futures (SFF Futures), which supports problem-solving and innovation in New Zealand's food and fibre sectors.&#160;</p>\n<p>You will be working closely with the SFF Futures Sector Acceleration project manager to ensure continued progress and efficient reporting and analysis is undertaken to demonstrate how we are meeting our Fit for a Better World goals.</p>\n<p>Your ability to foster and maintain relationships with key staff within the Investment Programmes Directorate will be an important success criteria for this role. This includes the project manager, business case advisers, investment managers, principal advisers and the SFF Futures team managers.&#160;</p>\n<p>As an experienced Programme and Investment Analyst, you will bring:</p>\n<ul type=\"disc\">\n<li>Excellent written and verbal communication skills</li>\n<li>An ability to make complex processes simple and easy to understand</li>\n<li>Have a strong understanding and experience in communicating and reporting progress to senior leaders.</li>\n<li>Tikanga M&#257;ori, embedding this in your day-to-day work</li>\n<li>Ability to identify trends, risks, opportunities, outcomes and benefits from active work programmes.</li>\n<li>A curiosity to dig deeper into trends to identify insights and information that will help decision makers.</li>\n</ul>\n<p>You will also have the opportunity to work on a variety of other interesting topics across the Investment Programmes Directorate. This is a great time to join MPI, if you want a career where you help to grow New Zealand in a very real way.</p>\n<p>&#160;</p>\n<p><strong>M&#333; t&#333; m&#257;tou r&#333;p&#363;</strong>&#160;-&#160;<strong>About our team</strong></p>\n<p>You will be working in the Business Support and Reporting team within the Investment Programmes Directorate. This team provides supporting services to the funding teams within the directorate and is key to ensuring consistent measures, templates and processes are utilised across the directorate as well as supporting funding rounds and other various funding activities. You will be a crucial part of the team by reporting and analysing the progress of SFF Futures meeting its appropriation spend requirements and understanding the funding processes.</p>\n<p>&#160;</p>\n<p><strong>M&#333; te Manat&#363; Ahu Matua</strong>&#160;-&#160;<strong>About MPI</strong></p>\n<p>MPI is responsible for &#8216;Growing and Protecting New Zealand'. It's no mean feat, and we have a team of hard working and passionate people in a variety of roles both on the ground and in the office supporting us to make this happen.&#160; MPI has a focus on career pathways and we will work with you to help you grow<strong>.&#160; </strong>To see the benefits of working at MPI, please click&#160;<a href=\"https://www.youtube.com/watch?v=faEKMflyORM&amp;feature=youtu.be\">here</a></p>\n<p>&#160;</p>\n<p><strong>Me p&#275;hea te tuku tono</strong>&#160;-&#160;<strong>How to apply</strong></p>\n<p>To find out more about the Ministry and what we do, please click&#160;<a href=\"https://www.youtube.com/watch?v=5lqvHsHAWP8\">here</a></p>\n<p>To view the position description and/or apply for the role (submitting a cover letter and current curriculum vitae), please click on&#160;<strong>&#8220;APPLY NOW&#8221;</strong>&#160;or visit the MPI Careers site.&#160; For tracking and reporting purposes, all applications must be submitted through our online careers portal.&#160;</p>\n<p>To apply for this role you must hold the right to work in New Zealand or be eligible to obtain it &#8211; click&#160;<a href=\"https://www.newzealandnow.govt.nz/move-to-nz/new-zealand-visa/work-visa\">here</a>&#160;to find out more about work visa eligibility and options.&#160;</p>\n<p>For internal candidates please make sure your current manager is aware of your application.</p>\n<p>This role sits in salary band E with an indicative salary range of $75,758 - $89,127 depending on skill set and experience.</p>\n<p><strong>Applications close: 4th November 2021</strong></p>\n<p>If you have any questions about the role, please contact Talent Acquisition Adviser Amy Hopkins on amy.hopkins@mpi.govt.nz</p>\n<p>The Ministry for Primary Industries is committed to providing a working environment that embraces and values inclusion and diversity. Your unique talents and experience will help us deliver exceptional services to our communities in Aotearoa. In return you'll enjoy an inclusive and flexible working environment in a diverse team of people while you're growing your career here in NZ and internationally. We actively encourage applications from all backgrounds. If you have any support or access requirements, we encourage you to tell us when you apply so that we can assist you through the recruitment process.</p>",
+										"7": "Wellington City",
+										"8": "ASAP",
+										"9": "N/A",
+										"10": "$NEG",
+										"11": "Ruth Greening",
+										"12": "2021-10-21 11:11:57.0000000",
+										"13": "Please send Resumes (CV's) as WORD (any version) attachments",
+										"15": "2020-11-11 07:30:54.0000000",
+										"16": "Administration",
+										"17": "ARCHIVE",
+										"18": "2021-11-05 01:01:27.0000000"
+									},
+									{
+										"0": "224478230",
+										"1": "NZ Ministry of Justice",
+										"2": "18809",
+										"3": "MOJ/1512956",
+										"4": "1",
+										"5": "Senior Claims Coordinator",
+										"6": "<p><strong>Te &#257;huatunga a te t&#363;ranga/About the Role</strong></p>\n<p>The Senior Claims Co-ordinator is responsible for overseeing the organising of claimant participation in Waitangi Tribunal inquiries. Training Claims Team members to ensure the quality of official events and the administrative support provided to Tribunal Members.</p>\n<p>In this dynamic environment, you will be responsible for leading the team of Claims Co-ordinators to manage their multiple tasks and their coordination of activities with a variety of internal and external stakeholders.</p>\n<p>You will be leading the team to:</p>\n<ul>\n<li>Ensure the Claims Record Management</li>\n<li>Oversee Event Management</li>\n<li>Oversee and maintain Quality Assurance processes</li>\n<li>Oversee budgets for events</li>\n<li>Build stakeholder relationships (internal and external)</li>\n<li>Provide coaching, support and feedback</li>\n<li>Ensure Health &amp; Safety standards/policies are met (at our events)</li>\n</ul>\n<p>&#160;</p>\n<p><strong>M&#333; te t&#299;ma/About our Team</strong></p>\n<p class=\"JDbody\">The Operations and Service Delivery Group is responsible for the Ministry's operational services, including the courts, tribunals, Legal Aid, centralised national services and provider and community services.</p>\n<p class=\"JDbody\">The services we deliver support access to the Court of Appeal, High Court, 58 District Courts, Coroner's Court, Environment Court, Employment Court and M&#257;ori Land Court. We want the judiciary to receive quality, effective support, wherever they are.</p>\n<p class=\"JDbody\">We also operate 29 tribunals, authorities and committees that help New Zealanders resolve disputes and we collect court-ordered fines.</p>\n<p><strong><em>Joining the Ministry of Justice means you will become part of an inclusive organisation that values you and the communities we serve.&#160;</em></strong><strong><em>It's our promise to ensure our workplace is one where our people feel healthy and safe, supported and able to be themselves at work. We value respect as the foundation for building a positive workplace culture and one where diversity is welcomed and celebrated.<br /></em></strong></p>\n<p>&#160;</p>\n<p><strong>He p&#363;kenga tou/Skills and Experience</strong></p>\n<p>EDUCATION/PROFESSIONAL QUALIFICATIONS AND TECHNICAL SKILLS</p>\n<ul type=\"disc\">\n<li>Relevant tertiary qualification (e.g. Business, M&#257;ori Studies, History) or relevant experience</li>\n<li>Full clean motor vehicle driver's license (essential)</li>\n<li>A good general knowledge of, and respect for, te reo M&#257;ori me ona tikanga.</li>\n</ul>\n<p>Work experience</p>\n<ul type=\"disc\">\n<li>Two years plus working in teams, demonstrating leading/taking ownership of team processes</li>\n<li>Experience in coaching others</li>\n<li>Proven experience in planning and managing events for group sizes ranging from&#160; 5 &#8211; 250 people</li>\n<li>Confident public speaker with strong written communication skills</li>\n<li>Proficiency in various IT systems, Word applications and audio technology</li>\n<li>Able and willing to travel away from Wellington (usually for no longer than one week at a time)</li>\n<li>Knowledge of Treaty sectors and working M&#257;ori groups would be advantageous</li>\n</ul>\n<p>&#160;</p>\n<p><strong>Tono mai/How to Apply</strong></p>\n<p>To apply, click the Apply button below to be directed to our Careers Website. You can view a detailed position description here, as well as complete an online application form by attaching your CV and cover letter.</p>\n<p><strong>Applications close on 25th October 2021</strong></p>\n<p>If you have any questions please contact&#160;<a href=\"mailto:recruitment@justice.govt.nz\">recruitment@justice.govt.nz</a></p>",
+										"7": "Wellington City",
+										"8": "15-FEB-2021",
+										"9": "N/A",
+										"10": "$NEG",
+										"11": "Zinta Waugh",
+										"12": "2021-10-19 09:09:43.0000000",
+										"13": "Please send Resumes (CV's) as WORD (any version) attachments",
+										"15": "2021-02-15 11:49:24.0000000",
+										"16": "Customer Service",
+										"17": "ARCHIVE",
+										"18": "2021-10-26 01:01:33.0000000"
+									},
+									{
+										"0": "224482737",
+										"1": "NZ Police",
+										"2": "16712",
+										"3": "NZ/90976755",
+										"4": "Ongoing - Full Time",
+										"5": "Police Communicator",
+										"6": "<p><strong><span style=\"font-size: 22pt;\"><span style=\"color: #00b0f0;\"><span style=\"font-family: 'Arial', sans-serif;\">Police Communications, it starts with you! </span></span></span></strong></p>\n<ul>\n<li><span style=\"color: #000000; font-family: arial,helvetica,sans-serif; font-size: medium;\">Emergency and Non-Emergency Communicators</span></li>\n<li><span style=\"color: #000000; font-family: arial,helvetica,sans-serif; font-size: medium;\">Multiple locations - Auckland, Wellington, Kapiti</span></li>\n<li><span style=\"color: #000000; font-family: arial,helvetica,sans-serif;\"><span style=\"font-size: 16px;\">Salary Range: $50,633.00 - $68,502.00</span></span></li>\n<li><span style=\"color: #000000; font-family: arial,helvetica,sans-serif;\"><span style=\"font-size: 16px;\">Shift work</span></span></li>\n<li><span style=\"color: #000000; font-family: arial,helvetica,sans-serif;\"><span style=\"font-size: 16px;\">Permanent, Fulltime</span></span></li>\n<li><span style=\"color: #000000; font-family: arial,helvetica,sans-serif;\"><span style=\"font-size: 16px;\">Multiple start dates throughout 2021 with multiple positions available</span></span></li>\n</ul>\n<p>&#160;</p>\n<p><span style=\"font-size: 10pt;\"><span style=\"color: #333333;\"><span style=\"font-family: 'Arial', sans-serif;\"><strong><span style=\"font-size: 12pt;\"><span style=\"color: #00b0f0;\"><span style=\"font-family: 'Arial', sans-serif;\">About the role</span></span></span></strong></span></span></span></p>\n<p><span style=\"font-size: 10pt;\"><span style=\"color: #333333;\"><span style=\"font-family: 'Arial', sans-serif;\"><span style=\"font-size: 12pt;\"><span style=\"color: black;\"><span style=\"font-family: 'Arial', sans-serif;\">Join a contact centre with true purpose, making a difference directly to New Zealand communities. Use your communication and problem solving skills to impact other Kiwi's lives every day.</span></span></span></span></span></span> &#160; <span style=\"font-size: 10pt;\"><span style=\"color: #333333;\"><span style=\"font-family: 'Arial', sans-serif;\"><span style=\"font-size: 12pt;\"><span style=\"color: black;\"><span style=\"font-family: 'Arial', sans-serif;\">You will be the first point of contact to answer inbound enquiries from the public at their time of need. Whether you're dealing with emergency or non-urgent enquiries, you will be trained to alleviate stress, accurately identify the needs of your caller and ensure the appropriate Police response via your knowledge of Police procedure.</span></span></span></span></span></span> &#160; <span style=\"font-size: 10pt;\"><span style=\"color: #333333;\"><span style=\"font-family: 'Arial', sans-serif;\"><span style=\"font-size: 12pt;\"><span style=\"color: black;\"><span style=\"font-family: 'Arial', sans-serif;\">While this role is meaningful and rewarding, with a highly supportive environment, it's also the start of a career.&#160; In addition to a competitive salary NZ Police are committed to ensuring quality people stay and develop, with structured pathways into many other roles, including a police officer.</span></span></span></span></span></span> &#160; <span style=\"font-size: 10pt;\"><span style=\"color: #333333;\"><span style=\"font-family: 'Arial', sans-serif;\"><span style=\"font-size: 12pt;\"><span style=\"color: black;\"><span style=\"font-family: 'Arial', sans-serif;\">You will be making our communities feel and be safer by taking phone calls from those in need and working in a tight knit culture of support, where people care. A Police Communicator is than a job, with proven career development pathways.</span></span></span></span></span></span> &#160; <span style=\"font-size: 10pt;\"><span style=\"color: #333333;\"><span style=\"font-family: 'Arial', sans-serif;\"><span style=\"font-size: 12pt;\"><span style=\"color: black;\"><span style=\"font-family: 'Arial', sans-serif;\">It takes a special person to do this role and great Police Communicators come from many different backgrounds. What they all have in common is:</span></span></span></span></span></span></p>\n<ul>\n<li><span style=\"font-size: 12pt;\"><span style=\"color: black;\"><span style=\"font-family: 'Arial', sans-serif;\">A passion and empathy for helping others in need</span></span></span></li>\n<li><span style=\"font-size: 10pt;\"><span style=\"color: #333333;\"><span style=\"font-family: 'Arial', sans-serif;\"><span style=\"font-size: 12pt;\"><span style=\"color: black;\"><span style=\"font-family: 'Arial', sans-serif;\">Great questioning and listening skills to make quick, accurate decisions,</span></span></span></span></span></span></li>\n<li><span style=\"font-size: 10pt;\"><span style=\"color: #333333;\"><span style=\"font-family: 'Arial', sans-serif;\"><span style=\"font-size: 12pt;\"><span style=\"color: black;\"><span style=\"font-family: 'Arial', sans-serif;\">Ability to think on your feet; and</span></span></span></span></span></span></li>\n<li><span style=\"font-size: 10pt;\"><span style=\"color: #333333;\"><span style=\"font-family: 'Arial', sans-serif;\"><span style=\"font-size: 12pt;\"><span style=\"color: black;\"><span style=\"font-family: 'Arial', sans-serif;\">Resilience and professionalism in the face of adversity.</span></span></span></span></span></span></li>\n</ul>\n<p>&#160;</p>\n<p><span style=\"font-size: 10pt;\"><span style=\"color: #333333;\"><span style=\"font-family: 'Arial', sans-serif;\"><span style=\"font-size: 12pt;\"><span style=\"color: black;\"><span style=\"font-family: 'Arial', sans-serif;\">Taking enquiries through a variety of channels you'll make people be safe and feel safe, in so doing build trust and confidence in New Zealand Police by making every contact count.</span></span></span></span></span></span></p>\n<p>&#160;</p>\n<p><span style=\"font-size: 10pt;\"><span style=\"color: #333333;\"><span style=\"font-family: 'Arial', sans-serif;\"><strong><span style=\"font-size: 12pt;\"><span style=\"color: #00b0f0;\"><span style=\"font-family: 'Arial', sans-serif;\">What you'll bring</span></span></span></strong> </span></span></span></p>\n<p><span style=\"font-size: 10pt;\"><span style=\"color: #333333;\"><span style=\"font-family: 'Arial', sans-serif;\"><span style=\"font-size: 12pt;\"><span style=\"color: black;\"><span style=\"font-family: 'Arial', sans-serif;\">Being part of the Police wh&#257;nau is about being our best to ensure our communities are safe and feel safe. Our Core Competencies provide a shared understanding of the behaviours, leadership and technical competence required for success at each level of Police. Whilst we are looking for skills, knowledge and experience relevant to the role, we also place high importance on your state of mind, the alignment of your values with ours, your ability to contribute to and build high performing teams, and the way that you lead yourself or others</span></span></span><span style=\"font-size: 12pt;\"><span style=\"color: #2b333a;\"><span style=\"font-family: 'Arial', sans-serif;\">. </span></span></span></span></span></span></p>\n<p><br /><span style=\"font-size: 10pt;\"><span style=\"color: #333333;\"><span style=\"font-family: 'Arial', sans-serif;\"><span style=\"font-size: 12pt;\"><span style=\"color: black;\"><span style=\"font-family: 'Arial', sans-serif;\">This role is set at <strong>Individual Contributor level</strong>, this means your key purpose is &#8220;to deliver or enable others to deliver Our Business&#8221;. </span></span></span></span></span></span></p>\n<p><span style=\"font-size: 10pt;\"><span style=\"color: #333333;\"><span style=\"font-family: 'Arial', sans-serif;\"><span style=\"font-size: 12pt;\"><span style=\"color: black;\"><span style=\"font-family: 'Arial', sans-serif;\">We will ask you questions based on &#8220;<span style=\"text-decoration: underline;\">How we will deliver Our Business &#8211; Core Competencies&#8221;</span> and the appropriate role level, i.e. Individual Contributor. </span></span></span> &#160; <span style=\"font-size: 12pt;\"><span style=\"color: black;\"><span style=\"font-family: 'Arial', sans-serif;\">For more information on Our Core Competencies, please copy and paste this URL: </span></span></span>&#160;<span style=\"font-size: 12pt;\"><span style=\"color: #333333;\"><span style=\"font-family: 'Arial', sans-serif;\"><a href=\"https://www.police.govt.nz/sites/default/files/publications/core-competencies-how-we-will-deliver-our-business.pdf\"><span style=\"color: black;\"><span style=\"text-decoration: none;\">https://www.police.govt.nz/sites/default/files/publications/core-competencies-how-we-will-deliver-our-business.pdf</span></span></a></span></span></span><span style=\"font-size: 12pt;\"><span style=\"color: black;\"><span style=\"font-family: 'Arial', sans-serif;\">. </span></span></span> <span style=\"font-size: 12pt;\"><span style=\"color: black;\"><span style=\"font-family: 'Arial', sans-serif;\">&#160; These questions will be unique and specific to the role, focusing on the aspects the hiring manager believes are most important for that position at the time. &#160;</span></span></span> <span style=\"font-size: 12pt;\"><span style=\"color: black;\"><span style=\"font-family: 'Arial', sans-serif;\">For more information on Our Values, please copy and paste this URL: </span></span></span><span style=\"font-size: 12pt;\"><span style=\"color: #333333;\"><span style=\"font-family: 'Arial', sans-serif;\"><a href=\"https://www.police.govt.nz/sites/default/files/publications/nzp-our-values.pdf\"><span style=\"color: black;\"><span style=\"text-decoration: none;\">https://www.police.govt.nz/sites/default/files/publications/nzp-our-values.pdf</span></span></a> &#160;</span></span></span></span></span></span></p>\n<p>&#160;</p>\n<p><span style=\"font-size: 10pt;\"><span style=\"color: #333333;\"><span style=\"font-family: 'Arial', sans-serif;\"><strong><span style=\"font-size: 12pt;\"><span style=\"color: black;\"><span style=\"font-family: 'Arial', sans-serif;\">To view the position description for this role please copy and paste this link into a new browser:</span></span></span></strong>&#160;</span></span></span><span style=\"font-size: 16px;\"><span style=\"font-family: Arial, Helvetica, sans-serif;\"><a href=\"https://www.police.govt.nz/sites/default/files/pd/11-2020/communicator.pdf\">https://www.police.govt.nz/sites/default/files/pd/11-2020/communicator.pdf</a></span></span> <span style=\"font-size: 10pt;\"><span style=\"color: #333333;\"><span style=\"font-family: 'Arial', sans-serif;\"><strong>&#160;</strong></span></span></span></p>\n<p>&#160;</p>\n<p><span style=\"font-size: 10pt;\"><span style=\"color: #333333;\"><span style=\"font-family: 'Arial', sans-serif;\"><strong><span style=\"font-size: 12pt;\"><span style=\"color: #00b0f0;\"><span style=\"font-family: 'Arial', sans-serif;\">About us</span></span></span></strong></span></span></span></p>\n<p><span style=\"font-size: 10pt;\"><span style=\"color: #333333;\"><span style=\"font-family: 'Arial', sans-serif;\"><span style=\"font-size: 12pt;\"><span style=\"color: black;\"><span style=\"font-family: 'Arial', sans-serif;\">Our mission is to be the safest country by delivering services that ensure New Zealand communities are confident, safe and secure. </span></span></span></span></span></span></p>\n<p>&#160;</p>\n<p><span style=\"font-size: 10pt;\"><span style=\"color: #333333;\"><span style=\"font-family: 'Arial', sans-serif;\"><strong><span style=\"font-size: 12pt;\"><span style=\"color: #00b0f0;\"><span style=\"font-family: 'Arial', sans-serif;\">How to apply</span></span></span></strong></span></span></span></p>\n<p><span style=\"font-family: arial,helvetica,sans-serif; font-size: medium;\"><strong>Please note:</strong> </span><span style=\"font-family: arial,helvetica,sans-serif; font-size: medium;\">Applications submitted directly through the Government Jobs Website are no longer considered. Please visit our Police Careers page: <a href=\"https://career10.successfactors.com/career?company=nzpolice\">https://career10.successfactors.com/career?company=nzpolice</a> to apply for this position.</span></p>\n<p><span style=\"color: #000000;\"><span style=\"font-size: 12pt;\"><span style=\"font-family: 'Arial', sans-serif;\">If this position sounds like you, click apply now. You will be required to submit an application form and a CV.</span></span><span style=\"font-size: 12pt;\"><span style=\"font-family: 'Arial', sans-serif;\"> Before confirmation of hire, pre-employment checks will be undertaken. For further information on the application process, please copy and paste this URL: </span></span></span><a href=\"https://www.police.govt.nz/careers\"><span style=\"font-size: 12pt;\"><span style=\"font-family: 'Arial', sans-serif;\"><span style=\"color: #0563c1;\">https://www.police.govt.nz/careers</span></span></span></a> &#160;</p>\n<p>&#160;</p>\n<p><span style=\"font-size: 10pt;\"><span style=\"color: #333333;\"><span style=\"font-family: 'Arial', sans-serif;\"><strong><span style=\"font-size: 12pt;\"><span style=\"color: black;\"><span style=\"font-family: 'Arial', sans-serif;\">If you have any queries about this vacancy, please email&#160;</span></span></span></strong><strong><span style=\"font-size: 12pt;\"><span style=\"color: #333333;\"><span style=\"font-family: 'Arial', sans-serif;\"><span style=\"color: black;\"><a><span style=\"color: #0066cc;\">HelloNZPolice@police.govt.nz</span></a></span></span></span></span></strong></span></span></span></p>",
+										"7": "Multiple Locations",
+										"8": "N/A",
+										"9": "N/A",
+										"10": "$",
+										"11": "Stella Waugh-Middleton",
+										"12": "2021-02-23 13:25:28.0000000",
+										"13": "Please send Resumes (CV's) as WORD (any version) attachments",
+										"15": "2021-02-17 10:18:48.0000000",
+										"17": "ARCHIVE",
+										"18": "2022-01-01 01:00:38.0000000"
+									},
+									{
+										"0": "224501691",
+										"1": "Ministry of Business Innovation and Employment",
+										"2": "17920",
+										"3": "MBIE/1515814X",
+										"4": "Ongoing - Full Time",
+										"5": "Senior Test Analyst",
+										"6": "<p style=\"display: inline !important;\">&#160;</p>\n<ul type=\"disc\">\n<li><strong>Senior Test Analyst required to deliver testing services into exciting initiatives across MBIE Businesses</strong></li>\n<li><strong>Permanent position within a tightly knit and supportive team</strong></li>\n<li><strong>Based in Wellington CBD</strong></li>\n</ul>\n<p>&#160;<strong>&#160;</strong></p>\n<p><strong>About the role:</strong></p>\n<p>The Senior Test Analyst performs testing of ICT applications to ensure they meet the requirements defined in the business specifications and that quality products/systems are delivered into MBIE's ICT environment.</p>\n<p>The Senior Test Analyst contributes to the operations of the ICT Testing Services team. The ICT Testing Services Team together with the ICT Test Capability Lead and colleagues in the ICT Customer Delivery influence the quality of ICT business solutions development, service delivery, systems and processes. They provide effective testing processes for all ICT related changes ensuring that quality products are delivered into the operating environment in MBIE.</p>\n<p>The Senior Test Analyst is responsible for ensuring quality and consistency of advice and practices in relation to their contribution to the team's work.</p>\n<p>&#160;</p>\n<p><strong>Why work for us:</strong></p>\n<p>MBIE is one of New Zealand's largest, most influential and most diverse public sector agencies.&#160; This means that we are able to offer significant opportunities for developing experience across a broad variety of areas.</p>\n<p>We aim to create a culture where our people are empowered to bring fresh ideas and perspectives and to develop new approaches.</p>\n<p>We also take the time to foster a work environment that is enjoyable for all.&#160; This means we like to collaborate, support and encourage our people, encourage excellence and innovation and take the time to have some fun and celebrate our successes.</p>\n<p>&#160;</p>\n<p><strong>Skills and Experience:</strong></p>\n<p>We are keen to hear from you if you have experience in the following:</p>\n<ul type=\"disc\">\n<li>At least 5 years' experience and in depth knowledge of working as a Test Analyst in ICT environment.</li>\n<li>Extensive experience in a software testing capacity.</li>\n<li>Understand the bigger picture, business objectives behind the technical solutions being built to align testing.</li>\n<li>Has awareness of various test techniques that helps in accelerating software testing without compromising quality.</li>\n<li>Has demonstrated experience, working in Integrated SaaS products environment.</li>\n<li>Well versed with API testing tools, ability to write acceptance tests from user stories and desire to extend your expertise in other areas of testing.</li>\n<li>Competent with SQL Querying to perform Database testing.</li>\n<li>Excellent communication skills &#8211; both verbal and written particularly business writing and reporting, ensure your communication is always clear and concise.</li>\n<li>Commitment to growth and curious to be involved in wider initiatives across the testing community is desired.</li>\n</ul>\n<p>&#160;</p>\n<p><strong>How to apply:</strong></p>\n<p>Click on the&#160;<strong>APPLY</strong>&#160;button below in order to be directed to our on-line careers website.&#160; You may view a position description at this site, as well as complete the on-line application, and upload a CV and cover letter. For tracking and evaluation purposes, all applications must be submitted via our on-line process.</p>\n<p>Please e-mail Dheeraj Deshmukh at Dheeraj.Deshmukh@mbie.govt.nz&#160;quoting reference MBIE/1515814X if you have any further questions.</p>\n<p>Applications close 5:00pm on Thursday 21st Ocvtober 2021</p>\n<p>&#160;</p>",
+										"7": "Wellington",
+										"8": "ASAP",
+										"9": "N/A",
+										"10": "$NEG",
+										"11": "Dheeraj Deshmukh",
+										"12": "2021-10-15 11:55:06.0000000",
+										"13": "Please send Resumes (CV's) as WORD (any version) attachments",
+										"15": "2021-03-01 08:35:49.0000000",
+										"16": "ICT",
+										"17": "ARCHIVE",
+										"18": "2021-10-22 01:01:41.0000000"
+									},
+									{
+										"0": "224516565",
+										"1": "NZ Transport Agency ",
+										"2": "17804",
+										"3": "NZTA/1516879",
+										"4": "Permanent full time",
+										"5": "Advisor, Organisational Capability",
+										"6": "<ul type=\"disc\">\n<li>Help shape our culture and the way we work at Waka Kotahi&#160;</li>\n<li>Opportunity to develop your experience and learn from others</li>\n<li>Fun, supportive and diverse team</li>\n<li>Wellington /Auckland location</li>\n</ul>\n<p><strong><br /> <br /> </strong><strong>Ko wai m&#257;tou</strong><strong> | About us </strong></p>\n<p>At Waka Kotahi, the NZ Transport Agency, it all starts with our people. The organisation's performance and success depends on the people who choose to make this a great place to work and make a difference for Aotearoa. The Transport Agency has a strong future focus, understanding that new technologies and changing customer expectations mean the transport system we know today will not be the one we deliver in ten years time.</p>\n<p>P&#363;manawa T&#257;ngata, the People Group, is responsible for developing and managing people related systems, processes and practices so we have the workplace and capabilities we need to succeed now and in the future. P&#363;manawa T&#257;ngata develops the people strategy with emphasis on talent, diversity, culture and leadership capabilities, and develops, lifts and manages people related systems, processes and practices.</p>\n<p><strong>Te Whiwhinga mahi</strong><strong> | The opportunity </strong></p>\n<p>As Advisor Organisational Capability (OC) you will provide support to a range of exciting organisational capability programmes and activities. &#160;</p>\n<p>You will contribute to the design and development of programmes and get the opportunity to lead events and workshops.&#160; This is a busy and varied role and you will be equally comfortable with delivering pieces of work, gaining insights from data analysis or supporting our internal stakeholders across Waka Kotahi.</p>\n<p>We are looking for someone who is confident and credible when working across the business and is keen to grow their career in organisational capability.</p>\n<p><strong>Ko <strong>koe&#160;</strong>t&#275;nei </strong><strong>| About you </strong></p>\n<p>To be successful in this role, you will bring:</p>\n<ul type=\"disc\">\n<li>Solid experience working in a similar role within an organisational development or HR team</li>\n<li>Experience in running diversity and inclusion programmes would be preferred</li>\n<li>Organised with some project management experience</li>\n<li>Excellent communication and relationship management skills</li>\n<li>Customer service and outcome focused approach</li>\n<li>Good understanding of methods of analysis, facilitation techniques and evaluation frameworks &#160;</li>\n<li>Strong critical thinking and problem-solving skills</li>\n</ul>\n<p><strong>R&#257; Katinga </strong><strong>| Applications close: Sunday 28 March 2021</strong></p>\n<p>For a copy of the position description: <a href=\"http://www.nzta.govt.nz/careers\" target=\"_blank\">www.nzta.govt.nz/careers</a></p>\n<p>For further information, email: <a href=\"mailto:careers@nzta.govt.nz\" target=\"_blank\">careers@nzta.govt.nz</a></p>\n<p><em>To be considered for this position you must have a legal right to live and work in New Zealand.</em></p>\n<p><em>NZ Transport Agency is an equal opportunity employer (EOE). At the Agency we recognise the importance of diversity and inclusion and are committed to providing a working environment that embraces these values. Please let us know if you need any support or have any access requirements that will help you through the recruitment process.</em></p>\n<p><em>Please note that we may begin shortlisting as we receive applications. We encourage early applications as we may withdraw the advertising at any time.</em></p>",
+										"7": "Wellington",
+										"8": "ASAP",
+										"9": "N/A",
+										"10": "$NEG",
+										"11": "Katie Diggins",
+										"12": "2021-03-23 07:40:03.0000000",
+										"13": "Please send Resumes (CV's) as WORD (any version) attachments",
+										"15": "2021-03-09 08:00:17.0000000",
+										"16": "Human Resources",
+										"17": "ARCHIVE",
+										"18": "2021-03-29 01:00:31.0000000"
+									},
+									{
+										"0": "224517074",
+										"1": "NZ WorkSafe",
+										"2": "18284",
+										"3": "WKS/1518219",
+										"4": "Permanent",
+										"5": "Manager Assurance and Performance",
+										"6": "<ul>\n<li><strong><span style=\"font-family: arial, helvetica, sans-serif; font-size: small;\">The Manager Assurance and Performance will lead and manage the performance and quality function of the Digital and Information Services (D&amp;IS) Group.</span></strong></li>\n<li><strong><span style=\"font-family: arial, helvetica, sans-serif; font-size: small;\">Be apart of the D&amp;IS Senior Leadership Team</span></strong></li>\n<li><strong><span style=\"font-family: arial, helvetica, sans-serif; font-size: small;\">Permanent position based in Wellington.</span></strong></li>\n</ul>\n<p class=\"paragraph\"><strong><span style=\"font-family: arial, helvetica, sans-serif; font-size: small;\">&#160;</span></strong></p>\n<p class=\"paragraph\"><span style=\"font-family: arial, helvetica, sans-serif; font-size: small;\"><strong>About the role</strong>&#160;</span></p>\n<p class=\"paragraph\"><span style=\"font-family: arial, helvetica, sans-serif; font-size: small;\">Digital and Information Services is looking for a Manager Assurance and Performance to allow WorkSafe to ensure our services are effective and efficient in achieving our outcomes and transform our service delivery.</span></p>\n<p class=\"paragraph\"><span style=\"font-family: arial, helvetica, sans-serif; font-size: small;\"><strong>&#160;</strong></span></p>\n<p class=\"paragraph\"><span style=\"font-family: arial, helvetica, sans-serif; font-size: small;\"><strong>Duties</strong>&#160;</span></p>\n<ul>\n<li><span style=\"font-family: arial, helvetica, sans-serif; font-size: small;\">Assurance and Performance Management</span></li>\n<li><span style=\"font-family: arial, helvetica, sans-serif; font-size: small;\">Security Management</span></li>\n<li><span style=\"font-family: arial, helvetica, sans-serif; font-size: small;\">Commercial and Vendor Management</span></li>\n<li><span style=\"font-family: arial, helvetica, sans-serif; font-size: small;\">Business Continuity and Disaster Recovery</span></li>\n<li><span style=\"font-family: arial, helvetica, sans-serif; font-size: small;\">Leading and managing the team</span></li>\n</ul>\n<p><span style=\"font-family: arial, helvetica, sans-serif; font-size: small;\">&#160;</span></p>\n<p><span style=\"font-family: arial, helvetica, sans-serif; font-size: small;\"><strong>We are seeking someone with the following skills, experience, and attributes:</strong></span></p>\n<ul type=\"disc\">\n<li><span style=\"font-family: arial, helvetica, sans-serif; font-size: small;\">A commercial background, possibly within an insight into the government environment</span></li>\n<li><span style=\"font-family: arial, helvetica, sans-serif; font-size: small;\">An understanding of cloud security, cyber incident response practices, DevSecOps, identity &amp; access management, security testing and privacy</span></li>\n<li><span style=\"font-family: arial, helvetica, sans-serif; font-size: small;\">Able to understand, articulate and mitigate information risk</span></li>\n<li><span style=\"font-family: arial, helvetica, sans-serif; font-size: small;\">Proven experience in a leadership and /or senior management position in a similar role within large complex organisations</span></li>\n<li><span style=\"font-family: arial, helvetica, sans-serif; font-size: small;\">Strong appreciation of key business drivers and an understanding of the ICT impact upon the business</span></li>\n<li><span style=\"font-family: arial, helvetica, sans-serif; font-size: small;\">Experience in managing complex vendor relationships</span></li>\n<li><span style=\"font-family: arial, helvetica, sans-serif; font-size: small;\">Tertiary level qualification in Business Management, Computer Science, Information Technology and/or an equivalent industry qualification</span></li>\n</ul>\n<p class=\"paragraph\"><span style=\"font-family: arial, helvetica, sans-serif; font-size: small;\"><strong>&#160;</strong></span></p>\n<p class=\"paragraph\"><span style=\"font-family: arial, helvetica, sans-serif; font-size: small;\"><strong>About WorkSafe</strong>&#160;</span></p>\n<p class=\"paragraph\"><span style=\"font-family: arial, helvetica, sans-serif; font-size: small;\">WorkSafe New Zealand, Mahi&#160;Haumaru&#160;Aotearoa, is the primary workplace health and safety regulator &#8211; our vision is that everyone who goes to work comes home healthy and safe.&#160; Our people are passionate about our vision and embrace&#8239;and demonstrate&#8239;our WorkSafe&#8239;Values&#8239;-&#8239;Ng&#257;&#160;M&#257;t&#257;pono:&#8239;&#160;&#160;</span></p>\n<ul>\n<li><span style=\"font-family: arial, helvetica, sans-serif; font-size: small;\">Whakakotahi&#160;&#8211;&#8239;we're united in a strong&#160;purpose&#8239;&#160;</span></li>\n<li><span style=\"font-family: arial, helvetica, sans-serif; font-size: small;\">K&#333;rero&#160;mai&#160;&#8211;&#8239;we engage&#160;meaningfully&#8239;&#160;&#160;</span></li>\n<li><span style=\"font-family: arial, helvetica, sans-serif; font-size: small;\">Tiakina&#160;mai&#8239;-&#8239;we're&#160;entrusted with a duty of care.&#8239;&#160;</span></li>\n</ul>\n<p class=\"paragraph\"><span style=\"font-family: arial, helvetica, sans-serif; font-size: small;\">&#160;</span></p>\n<p class=\"paragraph\"><span style=\"font-family: arial, helvetica, sans-serif; font-size: small;\">WorkSafe offer a range of benefits including free life, trauma and income protection insurances, discounts on health insurance and eye care, four weeks annual leave plus three days WorkSafe leave, and learning and professional development opportunities. We operate on a flexible by default basis, allowing you and your manager to create a flexible work experience that supports you and the business to succeed.&#160;</span></p>\n<p class=\"paragraph\"><span style=\"font-family: arial, helvetica, sans-serif; font-size: small;\">&#160;</span></p>\n<p class=\"paragraph\"><span style=\"font-family: arial, helvetica, sans-serif; font-size: small;\">There are a range of networks you can become part of, such as our&#160;Te&#160;R&#333;p&#363;&#160;Atuapiko&#160;Rainbow Network, WorkSafe&#160;Wahine&#160;Women's&#160;Network&#160;and our Kapa Haka group.&#160;&#160;</span></p>\n<p class=\"paragraph\"><span style=\"font-family: arial, helvetica, sans-serif; font-size: small;\"><strong>&#160;</strong></span></p>\n<p class=\"paragraph\"><span style=\"font-family: arial, helvetica, sans-serif; font-size: small;\"><strong>COVID-19 Vaccination requirement</strong></span></p>\n<p class=\"paragraph\"><span style=\"font-family: arial, helvetica, sans-serif; font-size: small;\">All employees are required to be vaccinated in line with our Vaccination Policy. New employees will be required to provide proof of COVID-19 vaccination prior to commencing employment.</span></p>\n<p class=\"paragraph\"><span style=\"font-family: arial, helvetica, sans-serif; font-size: small;\"><strong>&#160;</strong></span></p>\n<p class=\"paragraph\"><span style=\"font-family: arial, helvetica, sans-serif; font-size: small;\"><strong>How to apply&#160;</strong>&#160;</span></p>\n<p class=\"paragraph\"><span style=\"font-family: arial, helvetica, sans-serif; font-size: small;\">Click the apply link, complete an application&#160;form&#160;and submit a copy of your CV and cover letter.&#160;</span></p>\n<p class=\"paragraph\"><span style=\"font-family: arial, helvetica, sans-serif; font-size: small;\">For further information please contact&#160;<a href=\"https://mako.wd.govt.nz/otcsdav/nodes/16461817/careers%40worksafe.govt.nz\" target=\"_blank\">careers@worksafe.govt.nz</a>&#160;with any queries, or to find out more about WorkSafe New Zealand go to&#160;<a href=\"http://www.worksafe.govt.nz/\" target=\"_blank\">www.worksafe.govt.nz</a>&#160;&#160;</span></p>\n<p class=\"paragraph\"><span style=\"font-family: arial, helvetica, sans-serif; font-size: small;\">&#160;</span></p>\n<p class=\"paragraph\"><span style=\"font-family: arial, helvetica, sans-serif; font-size: small;\"><strong><strong>Applications close at 5pm on Thursday 3 March 2022</strong></strong></span></p>\n<p class=\"paragraph\"><span style=\"font-family: arial, helvetica, sans-serif; font-size: small;\">&#160;</span></p>\n<p class=\"paragraph\"><span style=\"font-family: arial, helvetica, sans-serif; font-size: small;\">&#8203;&#160;</span></p>\n<p class=\"paragraph\"><span style=\"font-family: arial, helvetica, sans-serif; font-size: small;\">&#160;</span></p>\n<p class=\"paragraph\"><span style=\"font-family: arial, helvetica, sans-serif; font-size: small;\">&#160;</span></p>\n<p><span style=\"font-family: arial, helvetica, sans-serif; font-size: small;\">&#160;</span></p>",
+										"7": "Wellington",
+										"8": "ASAP",
+										"9": "N/A",
+										"10": "$NEG",
+										"11": "Brittany Johnson",
+										"12": "2022-02-17 08:08:19.0000000",
+										"13": "Please send Resumes (CV's) as WORD (any version) attachments",
+										"15": "2021-03-09 10:21:01.0000000",
+										"16": "ICT",
+										"17": "ARCHIVE",
+										"18": "2022-03-03 01:01:43.0000000"
+									},
+									{
+										"0": "224517140",
+										"1": "NZ Transport Agency ",
+										"2": "17804",
+										"3": "NZTA/1512299",
+										"4": "Permanent full time",
+										"5": "Heavy Vehicle Certification Officer",
+										"6": "<ul type=\"disc\">\n<li>Are you a mechanical engineer with heavy vehicles experience looking to return home to NZ?</li>\n<li>OR are you a recent mechanical engineering graduate with an interest in heavy vehicles?</li>\n<li>Great opportunity to grow or develop your career further</li>\n<li>Multiple locations: at any main Waka Kotahi office</li>\n</ul>\n<p><strong>Ko wai m&#257;tou</strong><strong>| &#160;About us</strong></p>\n<p><strong><br /> </strong><strong><br /> </strong>Safety is a top priority for Waka Kotahi and we, as the Regulatory Services group, aim to improve safety and reduce the risk of harm by being a firm and fair regulator ensuring compliance - it is the essence of why we do what we do.&#160; For more information, please visit&#160;<a href=\"http://www.nzta.govt.nz/regulatory/\">www.nzta.govt.nz/regulatory/</a></p>\n<p>As well as stimulating work, we offer a range of benefits including ongoing professional development, the opportunity to work flexibly (within our operational requirements), 4 weeks annual leave, subsidised health insurance, and an active social club.&#160; &#160;For more information check out :<a href=\"https://www.nzta.govt.nz/careers/our-benefits/\">https://www.nzta.govt.nz/careers/our-benefits/</a></p>\n<p><strong><br /> </strong><strong>Te Whiwhinga mahi </strong><strong>|The opportunity </strong></p>\n<p>We have 2 vacancies available in our Heavy Vehicle Certification team so whether you are an mechanical engineer with heavy vehicles experience or a recent mechanical engineering graduate, this could be a great opportunity for you to improve the safety of heavy vehicles on our roads.</p>\n<p>As one of our Heavy Vehicles Certification Officers, you will be instrumental in ensuring that heavy vehicle specialist certifiers across the country are consistently applying best practice to keep heavy vehicles compliant and safe.&#160;</p>\n<p>Safety is at the forefront of everything we do and there will be lots of variety and opportunities to develop in this role.&#160; Day to day you will be kept busy with auditing, mentoring and monitoring heavy vehicle specialist certifiers' and processing complex technical issues to ensure compliance with relevant rules, standards and guidelines.</p>\n<p>You will also get the opportunity to contribute to technical forums and engage with internal and external stakeholders to identify risks, trends and opportunities and work closely with inspecting organisations.</p>\n<p><strong>Ko koe t&#275;nei </strong><strong>| About you &#160;</strong></p>\n<p>To be successful in this role, you will:</p>\n<ul type=\"disc\">\n<li>Have a background and knowledge of the heavy vehicle industry</li>\n<li>Enjoy the challenge of working out complex technical issues</li>\n<li>Enjoy working with number and using maths to analyse bending, shear and fatigue calculations</li>\n<li>Have proven experience conducting investigation and writing technical reports</li>\n<li>Have effective communication and relationship management skills</li>\n<li>Have high degree of applied knowledge and practical skills involving the understanding and application of advanced practices and procedures of heavy vehicle design and fabrication&#160;</li>\n<li>Have a track record in building and sustaining working relationships within the transport and vehicles sector</li>\n</ul>\n<p><strong>Qualifications: this is a necessary requirement for the role </strong></p>\n<ul type=\"disc\">\n<li>A tertiary qualification in Engineering, preferably in Mechanical Engineering.&#160;&#160;<strong>Please provide your academic transcript as part of your application paperwork.</strong></li>\n</ul>\n<p>These roles can be based at one of our main centres in either Wellington, Auckland, Hamilton, or Christchurch.</p>\n<p><strong>You must have either NZ citizenship or permanent residency if you are currently living outside of New Zealand. </strong></p>\n<p><br /> <strong>R&#257; Katinga | Applications close:&#160; 31 March 2021</strong></p>\n<p><strong><br /> </strong>For a copy of the position description and to apply, please visit: <a href=\"http://www.nzta.govt.nz/careers\" target=\"_blank\">www.nzta.govt.nz/careers</a></p>\n<p>For further information, email: <a href=\"mailto:careers@nzta.govt.nz\" target=\"_blank\">careers@nzta.govt.nz</a></p>\n<p><em>To be considered for this position you must have a legal right to live and work in New Zealand.</em></p>\n<p><em>Please note that we may begin shortlisting as we receive applications. We encourage early applications as we may withdraw the advertising at any time.</em></p>\n<p><em>NZ Transport Agency is an equal opportunity employer (EOE). At the Agency we recognise the importance of diversity and inclusion and are committed to providing a working environment that embraces these values. Please do let us know if you need any support or have any access requirements that will help you through the recruitment process.</em></p>",
+										"7": "Multiple Locations",
+										"8": "ASAP",
+										"9": "N/A",
+										"10": "$NEG",
+										"11": "Katie Diggins",
+										"12": "2021-03-09 10:43:01.0000000",
+										"13": "Please send Resumes (CV's) as WORD (any version) attachments",
+										"15": "2021-03-09 10:43:01.0000000",
+										"16": "Engineering",
+										"17": "ARCHIVE",
+										"18": "2021-04-01 01:00:30.0000000"
+									}
+								],
+								"schema": [
+									{
+										"key": "0",
+										"name": "JNCOUNTER",
+										"type": "string"
+									},
+									{
+										"key": "1",
+										"name": "AGENCYNAME",
+										"type": "string"
+									},
+									{
+										"key": "2",
+										"name": "AGENCYNUMBER",
+										"type": "string"
+									},
+									{
+										"key": "3",
+										"name": "JOBREFERENCE",
+										"type": "string"
+									},
+									{
+										"key": "4",
+										"name": "JOBTYPE",
+										"type": "string"
+									},
+									{
+										"key": "5",
+										"name": "POSITION",
+										"type": "string"
+									},
+									{
+										"key": "6",
+										"name": "SKILLS",
+										"type": "string"
+									},
+									{
+										"key": "7",
+										"name": "LOCATION",
+										"type": "string"
+									},
+									{
+										"key": "8",
+										"name": "STARTDATE",
+										"type": "string"
+									},
+									{
+										"key": "9",
+										"name": "DURATION",
+										"type": "string"
+									},
+									{
+										"key": "10",
+										"name": "RATE",
+										"type": "string"
+									},
+									{
+										"key": "11",
+										"name": "CONTACT",
+										"type": "string"
+									},
+									{
+										"key": "12",
+										"name": "DATEINPUT",
+										"type": "string"
+									},
+									{
+										"key": "13",
+										"name": "NOTES",
+										"type": "string"
+									},
+									{
+										"key": "14",
+										"name": "OTHER",
+										"type": "string"
+									},
+									{
+										"key": "15",
+										"name": "ORIGINALDATE",
+										"type": "string"
+									},
+									{
+										"key": "16",
+										"name": "INDUSTRY",
+										"type": "string"
+									},
+									{
+										"key": "17",
+										"name": "JOB_STATUS",
+										"type": "string"
+									},
+									{
+										"key": "18",
+										"name": "ARCHIVEDDATE",
+										"type": "string"
+									}
+								],
+								"truncated": false
+							},
+							"isSummary": false,
+							"language": "scala"
+						},
+						"persist_state": {
+							"view": {
+								"type": "details",
+								"chartOptions": {
+									"chartType": "bar",
+									"aggregationType": "count",
+									"categoryFieldKeys": [
+										"0"
+									],
+									"seriesFieldKeys": [
+										"0"
+									],
+									"isStacked": false
+								}
+							}
+						}
+					},
+					"db0523dc-a783-421d-8927-169dbb04dde8": {
+						"type": "Synapse.DataFrame",
+						"sync_state": {
+							"table": {
+								"rows": [
+									{
+										"0": "222780019",
+										"1": "Ministry for Primary Industries",
+										"2": "18153",
+										"3": "MPI17/1266640",
+										"4": "Full Time",
+										"5": "Veterinarians - EOI",
+										"6": "National",
+										"7": "ASAP",
+										"8": "N/A",
+										"9": "$NEG",
+										"10": "Sean Hill",
+										"11": "2022-03-08T13:13:41Z",
+										"13": "2017-03-22T14:51:30Z",
+										"14": "Veterinarians",
+										"15": "Live",
+										"18": "0"
+									},
+									{
+										"0": "224745057",
+										"1": "Waikato District Health Board (Hamilton)",
+										"2": "19769",
+										"3": "WAI11823",
+										"4": "Permanent Part time",
+										"5": "Specialist Radiologist - Paediatrics",
+										"6": "Waikato",
+										"7": "ASAP",
+										"8": "N/A",
+										"9": "N/A",
+										"10": "Madeleine Stapleton",
+										"11": "2021-10-05T21:12:08Z",
+										"13": "2021-07-19T14:25:40Z",
+										"14": "Senior Medical Officers, Medical Officers and Fellows",
+										"15": "Live",
+										"18": "1"
+									},
+									{
+										"0": "224745058",
+										"1": "Waikato District Health Board (Hamilton)",
+										"2": "19769",
+										"3": "WAI13616",
+										"4": "Contract/Temp Full time",
+										"5": "Fellow -  Critical  Care",
+										"6": "Waikato",
+										"7": "ASAP",
+										"8": "N/A",
+										"9": "N/A",
+										"10": "Madeleine Stapleton",
+										"11": "2022-03-17T10:30:45Z",
+										"13": "2021-07-19T14:25:41Z",
+										"14": "Senior Medical Officers, Medical Officers and Fellows",
+										"15": "Live",
+										"18": "2"
+									},
+									{
+										"0": "224745073",
+										"1": "Waikato District Health Board (Hamilton)",
+										"2": "19769",
+										"3": "WAI16936",
+										"4": "Permanent Full time",
+										"5": "Pharmacist - Quality and Safe Use of Medicines ",
+										"6": "Waikato",
+										"7": "ASAP",
+										"8": "N/A",
+										"9": "N/A",
+										"10": "Elysia Koretz",
+										"11": "2022-03-10T14:30:39Z",
+										"13": "2021-07-19T14:25:41Z",
+										"14": "Technical",
+										"15": "Live",
+										"18": "3"
+									},
+									{
+										"0": "224745091",
+										"1": "Waikato District Health Board (Hamilton)",
+										"2": "19769",
+										"3": "WAI17803",
+										"4": "Permanent Full time",
+										"5": "Orthopaedics Fellow - Trauma",
+										"6": "Waikato",
+										"7": "ASAP",
+										"8": "N/A",
+										"9": "N/A",
+										"10": "Kate Johnson",
+										"11": "2021-10-05T21:12:08Z",
+										"13": "2021-07-19T14:25:42Z",
+										"14": "Registrar",
+										"15": "Live",
+										"18": "4"
+									},
+									{
+										"0": "224745092",
+										"1": "Waikato District Health Board (Hamilton)",
+										"2": "19769",
+										"3": "WAI17804",
+										"4": "Permanent Full time",
+										"5": "Orthopaedics Fellow - Arthroplasty",
+										"6": "Waikato",
+										"7": "ASAP",
+										"8": "N/A",
+										"9": "N/A",
+										"10": "Kate Johnson",
+										"11": "2021-10-05T21:12:08Z",
+										"13": "2021-07-19T14:25:42Z",
+										"14": "Registrar",
+										"15": "Live",
+										"18": "5"
+									},
+									{
+										"0": "224745093",
+										"1": "Waikato District Health Board (Hamilton)",
+										"2": "19769",
+										"3": "WAI17806",
+										"4": "Permanent Full time",
+										"5": "Orthopaedic Fellow - Spine",
+										"6": "Waikato",
+										"7": "ASAP",
+										"8": "N/A",
+										"9": "N/A",
+										"10": "Kate Johnson",
+										"11": "2021-10-05T21:12:08Z",
+										"13": "2021-07-19T14:25:42Z",
+										"14": "Registrar",
+										"15": "Live",
+										"18": "6"
+									},
+									{
+										"0": "224764870",
+										"1": "Northern Regional Alliance (NRA)",
+										"2": "19766",
+										"3": "AUC07197",
+										"4": "Contract/Temp Full time",
+										"5": "Surgical Fellow",
+										"6": "Auckland",
+										"7": "ASAP",
+										"8": "N/A",
+										"9": "N/A",
+										"10": "Esther Weeks",
+										"11": "2021-10-05T21:13:55Z",
+										"13": "2021-08-03T16:00:48Z",
+										"14": "Registrar",
+										"15": "Live",
+										"18": "7"
+									},
+									{
+										"0": "224764872",
+										"1": "Northern Regional Alliance (NRA)",
+										"2": "19766",
+										"3": "AUC12265",
+										"4": "Permanent Full time",
+										"5": "2022 Training Year - Surgical Education and Training (SET) Registrars",
+										"6": "Auckland",
+										"7": "ASAP",
+										"8": "N/A",
+										"9": "N/A",
+										"10": "Esther Weeks",
+										"11": "2021-10-05T21:13:55Z",
+										"13": "2021-08-03T16:00:48Z",
+										"14": "Registrar",
+										"15": "Live",
+										"18": "8"
+									},
+									{
+										"0": "224791394",
+										"1": "Ara Poutama Aotearoa (Department of Corrections)",
+										"2": "19421",
+										"3": "APA/1560858",
+										"4": "Permanent",
+										"5": "Corrections Officer - Northland Region Corrections Facility (Kaikohe)",
+										"6": "Northland (Te Tai Tokerau)",
+										"7": "ASAP",
+										"8": "N/A",
+										"9": "$NEG",
+										"10": "Fiona Ramson",
+										"11": "2022-03-14T06:23:03Z",
+										"13": "2021-08-25T12:28:22Z",
+										"14": "CO CM",
+										"15": "Live",
+										"18": "9"
+									}
+								],
+								"schema": [
+									{
+										"key": "0",
+										"name": "JNCOUNTER",
+										"type": "string"
+									},
+									{
+										"key": "1",
+										"name": "AGENCYNAME",
+										"type": "string"
+									},
+									{
+										"key": "2",
+										"name": "AGENCYNUMBER",
+										"type": "string"
+									},
+									{
+										"key": "3",
+										"name": "JOBREFERENCE",
+										"type": "string"
+									},
+									{
+										"key": "4",
+										"name": "JOBTYPE",
+										"type": "string"
+									},
+									{
+										"key": "5",
+										"name": "POSITION",
+										"type": "string"
+									},
+									{
+										"key": "6",
+										"name": "LOCATION",
+										"type": "string"
+									},
+									{
+										"key": "7",
+										"name": "STARTDATE",
+										"type": "string"
+									},
+									{
+										"key": "8",
+										"name": "DURATION",
+										"type": "string"
+									},
+									{
+										"key": "9",
+										"name": "RATE",
+										"type": "string"
+									},
+									{
+										"key": "10",
+										"name": "CONTACT",
+										"type": "string"
+									},
+									{
+										"key": "11",
+										"name": "DATEINPUT",
+										"type": "string"
+									},
+									{
+										"key": "12",
+										"name": "OTHER",
+										"type": "string"
+									},
+									{
+										"key": "13",
+										"name": "ORIGINALDATE",
+										"type": "string"
+									},
+									{
+										"key": "14",
+										"name": "INDUSTRY",
+										"type": "string"
+									},
+									{
+										"key": "15",
+										"name": "Category",
+										"type": "string"
+									},
+									{
+										"key": "16",
+										"name": "ARCHIVEDDATE",
+										"type": "string"
+									},
+									{
+										"key": "17",
+										"name": "DELETEDDATE",
+										"type": "string"
+									},
+									{
+										"key": "18",
+										"name": "__index_level_0__",
+										"type": "bigint"
+									}
+								],
+								"truncated": false
+							},
+							"isSummary": false,
+							"language": "scala"
+						},
+						"persist_state": {
+							"view": {
+								"type": "details",
+								"chartOptions": {
+									"chartType": "bar",
+									"aggregationType": "sum",
+									"categoryFieldKeys": [
+										"0"
+									],
+									"seriesFieldKeys": [
+										"18"
+									],
+									"isStacked": false
+								}
+							}
+						}
+					},
+					"afaf749f-7b7a-40d1-b1dc-6c0dfaccd48e": {
+						"type": "Synapse.DataFrame",
+						"sync_state": {
+							"table": {
+								"rows": [
+									{
+										"0": "224964607",
+										"1": "Ministry for the Environment",
+										"2": "19133",
+										"3": "MFE/1597339",
+										"4": "Permanent Full Time",
+										"5": "Principal Implementation Advisor",
+										"6": "Flexible",
+										"7": "ASAP",
+										"8": "N/A",
+										"9": "$NEG",
+										"10": "Sally Morison",
+										"11": "2022-01-17 07:50:50.0000000",
+										"13": "2022-01-17 07:50:50.0000000",
+										"14": "Policy",
+										"15": "Archive",
+										"16": "2022-02-01 01:02:25.0000000"
+									},
+									{
+										"0": "224964609",
+										"1": "Counties Manukau District Health Board",
+										"2": "16630",
+										"3": "NZ/CM20216987",
+										"4": "Casual",
+										"5": "Administrator (Casual), Mental Health & Addictions, CM Health ",
+										"6": "Auckland",
+										"7": "N/A",
+										"8": "N/A",
+										"9": "$NEG",
+										"10": "Amy Lin",
+										"11": "2022-01-17 07:47:57.0000000",
+										"13": "2022-01-17 07:47:57.0000000",
+										"15": "Archive",
+										"16": "2022-02-08 01:00:14.0000000"
+									},
+									{
+										"0": "224964612",
+										"1": "Inland Revenue Department",
+										"2": "17468",
+										"3": "895_1642364519",
+										"4": "Ongoing - Full Time",
+										"5": "Domain Lead (L1) - Legal Services",
+										"6": "Wellington",
+										"7": "ASAP",
+										"8": "N/A",
+										"9": "Flexible working, multiple locations & competitive salary",
+										"10": "Ella Churchill",
+										"11": "2022-01-17 09:21:59.0000000",
+										"13": "2022-01-17 07:51:11.0000000",
+										"14": "Legal & courts",
+										"15": "Archive",
+										"16": "2022-01-31 07:35:18.0000000"
+									},
+									{
+										"0": "224964613",
+										"1": "Inland Revenue Department",
+										"2": "17468",
+										"3": "896_1642364821",
+										"4": "Ongoing - Full Time",
+										"5": "Technical Lead - Legal Services",
+										"6": "Wellington",
+										"7": "ASAP",
+										"8": "N/A",
+										"9": "Flexible working & competitive salary",
+										"10": "Ella Churchill",
+										"11": "2022-01-17 09:27:01.0000000",
+										"13": "2022-01-17 07:51:11.0000000",
+										"14": "Legal & courts",
+										"15": "Archive",
+										"16": "2022-01-31 07:35:18.0000000"
+									},
+									{
+										"0": "224964614",
+										"1": "K&#257;inga Ora &#8211; Homes and Communities ",
+										"2": "16655",
+										"3": "58042-1",
+										"4": "Ongoing - Full Time",
+										"5": "Administrator Housing Support, Whang&#257rei",
+										"6": "Northland",
+										"7": "ASAP",
+										"8": "N/A",
+										"9": "50k",
+										"10": "Aotal",
+										"11": "2022-01-17 09:51:11.0000000",
+										"13": "2022-01-17 07:51:14.0000000",
+										"14": "Administration",
+										"15": "Archive",
+										"16": "2022-01-23 22:05:26.0000000"
+									},
+									{
+										"0": "224964615",
+										"1": "Capital & Coast District Health Board (Wellington)",
+										"2": "19779",
+										"3": "SS009-22",
+										"4": "Permanent Full time",
+										"5": "Quality Facilitator/Kaihuawaere Kounga",
+										"6": "Wellington Hospital",
+										"7": "ASAP",
+										"8": "N/A",
+										"9": "N/A",
+										"10": "Not Supplied",
+										"11": "2022-02-02 06:06:31.0000000",
+										"13": "2022-01-17 07:52:11.0000000",
+										"14": "Management",
+										"15": "Archive",
+										"16": "2022-02-28 01:02:04.0000000"
+									},
+									{
+										"0": "224964616",
+										"1": "Ministry of Foreign Affairs & Trade",
+										"2": "16682",
+										"3": "3679-2",
+										"4": "Ongoing - Full Time",
+										"5": "People Business Systems Analyst",
+										"6": "Wellington",
+										"7": "ASAP",
+										"8": "N/A",
+										"9": "N/A",
+										"10": "Aotal",
+										"11": "2022-01-17 09:52:25.0000000",
+										"13": "2022-01-17 07:52:25.0000000",
+										"14": "IT & computing",
+										"15": "Archive",
+										"16": "2022-01-31 08:06:42.0000000"
+									},
+									{
+										"0": "224964630",
+										"1": "NZ Ministry of Education",
+										"2": "17585",
+										"3": "EDU/1568597B",
+										"4": "Permanent full-time",
+										"5": "Early Intervention Teacher",
+										"6": "Palmerston North",
+										"7": "ASAP",
+										"8": "N/A",
+										"9": "$NEG",
+										"10": "Lena Danh",
+										"11": "2022-01-17 08:05:16.0000000",
+										"13": "2022-01-17 08:05:16.0000000",
+										"14": "Education & Training ",
+										"15": "Archive",
+										"16": "2022-01-31 01:02:30.0000000"
+									},
+									{
+										"0": "224964644",
+										"1": "NZ Transport Agency ",
+										"2": "17804",
+										"3": "NZTA/1593302",
+										"4": "Permanent full time",
+										"5": "Debt Services Officer",
+										"6": "Manawatu",
+										"7": "ASAP",
+										"8": "N/A",
+										"9": "$NEG",
+										"10": "Emily Blokker",
+										"11": "2022-01-17 08:25:54.0000000",
+										"13": "2022-01-17 08:25:54.0000000",
+										"14": "Administration",
+										"15": "Archive",
+										"16": "2022-01-31 01:02:32.0000000"
+									},
+									{
+										"0": "224964646",
+										"1": "Ara Poutama Aotearoa (Department of Corrections)",
+										"2": "19421",
+										"3": "APA/1595886",
+										"4": "Permanent",
+										"5": "Director Architecture and Delivery",
+										"6": "Wellington (Te Whanganui a Tara)",
+										"7": "ASAP",
+										"8": "N/A",
+										"9": "$NEG",
+										"10": "Katya Vezalova",
+										"11": "2022-01-17 08:16:16.0000000",
+										"13": "2022-01-17 08:16:16.0000000",
+										"14": "Information Technology",
+										"15": "Archive",
+										"16": "2022-01-31 01:02:41.0000000"
+									}
+								],
+								"schema": [
+									{
+										"key": "0",
+										"name": "_c0",
+										"type": "string"
+									},
+									{
+										"key": "1",
+										"name": "_c1",
+										"type": "string"
+									},
+									{
+										"key": "2",
+										"name": "_c2",
+										"type": "string"
+									},
+									{
+										"key": "3",
+										"name": "_c3",
+										"type": "string"
+									},
+									{
+										"key": "4",
+										"name": "_c4",
+										"type": "string"
+									},
+									{
+										"key": "5",
+										"name": "_c5",
+										"type": "string"
+									},
+									{
+										"key": "6",
+										"name": "_c6",
+										"type": "string"
+									},
+									{
+										"key": "7",
+										"name": "_c7",
+										"type": "string"
+									},
+									{
+										"key": "8",
+										"name": "_c8",
+										"type": "string"
+									},
+									{
+										"key": "9",
+										"name": "_c9",
+										"type": "string"
+									},
+									{
+										"key": "10",
+										"name": "_c10",
+										"type": "string"
+									},
+									{
+										"key": "11",
+										"name": "_c11",
+										"type": "string"
+									},
+									{
+										"key": "12",
+										"name": "_c12",
+										"type": "string"
+									},
+									{
+										"key": "13",
+										"name": "_c13",
+										"type": "string"
+									},
+									{
+										"key": "14",
+										"name": "_c14",
+										"type": "string"
+									},
+									{
+										"key": "15",
+										"name": "_c15",
+										"type": "string"
+									},
+									{
+										"key": "16",
+										"name": "_c16",
+										"type": "string"
+									},
+									{
+										"key": "17",
+										"name": "_c17",
+										"type": "string"
+									}
+								],
+								"truncated": false
+							},
+							"isSummary": false,
+							"language": "scala"
+						},
+						"persist_state": {
+							"view": {
+								"type": "details",
+								"chartOptions": {
+									"chartType": "bar",
+									"aggregationType": "count",
+									"categoryFieldKeys": [
+										"0"
+									],
+									"seriesFieldKeys": [
+										"0"
+									],
+									"isStacked": false
+								}
+							}
+						}
+					}
+				}
+			},
+			"enableDebugMode": false,
+			"kernelspec": {
+				"name": "synapse_pyspark",
+				"display_name": "Synapse PySpark"
+			},
+			"language_info": {
+				"name": "python"
+			},
+			"a365ComputeOptions": {
+				"id": "/subscriptions/3db7cb1a-673f-4634-8591-83a43b03a0c3/resourceGroups/rg-dia-sbx01-aue-dps-dwh/providers/Microsoft.Synapse/workspaces/wssbx01auedps/bigDataPools/wssbx01auedpssp",
+				"name": "wssbx01auedpssp",
+				"type": "Spark",
+				"endpoint": "https://wssbx01auedps.dev.azuresynapse.net/livyApi/versions/2019-11-01-preview/sparkPools/wssbx01auedpssp",
+				"auth": {
+					"type": "AAD",
+					"authResource": "https://dev.azuresynapse.net"
+				},
+				"sparkVersion": "3.1",
+				"nodeCount": 3,
+				"cores": 4,
+				"memory": 28,
+				"extraHeader": null
+			},
+			"sessionKeepAliveTimeout": 30
+		},
+		"cells": [
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"a = df.toPandas()"
+				],
+				"attachments": null,
+				"execution_count": 100
+			},
+			{
+				"cell_type": "markdown",
+				"metadata": {
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"# **Jobs Data Append**\r\n",
+					"\r\n",
+					"Removed Job Status column from Live and Delete file. Appeneded live, delete and archieve into one parquet file. Created Column called \"Category\"\r\n",
+					""
+				],
+				"attachments": null
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"microsoft": {
+						"language": "python"
+					},
+					"collapsed": false
+				},
+				"source": [
+					"\r\n",
+					"\r\n",
+					"%%pyspark\r\n",
+					"df = spark.read.load('abfss://jobsdata@strdiasbxdpsdl.dfs.core.windows.net/Jobs_newdata/live_new.parquet', format='parquet')\r\n",
+					"display(df.limit(10))"
+				],
+				"attachments": null,
+				"execution_count": 99
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"type(a)"
+				],
+				"attachments": null,
+				"execution_count": 101
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"df = a.copy()"
+				],
+				"attachments": null,
+				"execution_count": 102
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"df.head()"
+				],
+				"attachments": null,
+				"execution_count": 103
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"df.columns"
+				],
+				"attachments": null,
+				"execution_count": 104
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"live = df.copy()"
+				],
+				"attachments": null,
+				"execution_count": 105
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					},
+					"microsoft": {
+						"language": "python"
+					},
+					"collapsed": false
+				},
+				"source": [
+					"%%pyspark\r\n",
+					"df = spark.read.load('abfss://jobsdata@strdiasbxdpsdl.dfs.core.windows.net/Jobs_newdata/archive.parquet', format='parquet')\r\n",
+					"display(df.limit(10))"
+				],
+				"attachments": null,
+				"execution_count": 106
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"a = df.toPandas()"
+				],
+				"attachments": null,
+				"execution_count": 107
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"archive = a.copy()"
+				],
+				"attachments": null,
+				"execution_count": 108
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"archive['Category'] = \"Archive\""
+				],
+				"attachments": null,
+				"execution_count": 109
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"live['Category'] = \"Live\""
+				],
+				"attachments": null,
+				"execution_count": 110
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"live.columns"
+				],
+				"attachments": null,
+				"execution_count": 111
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"archive.columns"
+				],
+				"attachments": null,
+				"execution_count": 112
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"live = live[['JNCOUNTER', 'AGENCYNAME', 'AGENCYNUMBER', 'JOBREFERENCE', 'JOBTYPE',\r\n",
+					"       'POSITION', 'LOCATION', 'STARTDATE', 'DURATION', 'RATE', 'CONTACT',\r\n",
+					"       'DATEINPUT', 'OTHER', 'ORIGINALDATE', 'INDUSTRY', 'Category']]"
+				],
+				"attachments": null,
+				"execution_count": 113
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"archive = archive[['JNCOUNTER', 'AGENCYNAME', 'AGENCYNUMBER', 'JOBREFERENCE', 'JOBTYPE',\r\n",
+					"       'POSITION', 'LOCATION', 'STARTDATE', 'DURATION', 'RATE',\r\n",
+					"       'CONTACT', 'DATEINPUT',  'OTHER', 'ORIGINALDATE', 'INDUSTRY',\r\n",
+					"        'ARCHIVEDDATE', 'Category']]"
+				],
+				"attachments": null,
+				"execution_count": 114
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"df1 = live.append(archive)"
+				],
+				"attachments": null,
+				"execution_count": 115
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"df1.shape"
+				],
+				"attachments": null,
+				"execution_count": 116
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					},
+					"microsoft": {
+						"language": "python"
+					},
+					"collapsed": false
+				},
+				"source": [
+					"%%pyspark\r\n",
+					"df = spark.read.load('abfss://jobsdata@strdiasbxdpsdl.dfs.core.windows.net/Jobs_newdata/delete.parquet', format='parquet')\r\n",
+					"display(df.limit(10))"
+				],
+				"attachments": null,
+				"execution_count": 117
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"a = df.toPandas()"
+				],
+				"attachments": null,
+				"execution_count": 118
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"delete = a.copy()"
+				],
+				"attachments": null,
+				"execution_count": 119
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"delete.columns"
+				],
+				"attachments": null,
+				"execution_count": 120
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"delete['Category'] = \"Delete\""
+				],
+				"attachments": null,
+				"execution_count": 121
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"delete = delete[['JNCOUNTER', 'AGENCYNAME', 'AGENCYNUMBER', 'JOBREFERENCE', 'JOBTYPE',\r\n",
+					"       'POSITION', 'LOCATION', 'STARTDATE', 'DURATION', 'RATE',\r\n",
+					"       'CONTACT', 'DATEINPUT',  'OTHER', 'ORIGINALDATE', 'INDUSTRY',\r\n",
+					"        'DELETEDDATE', 'Category']]"
+				],
+				"attachments": null,
+				"execution_count": 122
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"df = df1.append(delete)"
+				],
+				"attachments": null,
+				"execution_count": 123
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"df.shape"
+				],
+				"attachments": null,
+				"execution_count": 124
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"df.to_parquet('abfss://jobsdata@strdiasbxdpsdl.dfs.core.windows.net/Jobs_newdata/jobs.parquet')"
+				],
+				"attachments": null,
+				"execution_count": 95
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"df.to_csv('abfss://jobsdata@strdiasbxdpsdl.dfs.core.windows.net/Jobs_newdata/jobs.csv', sep=',', encoding='utf-8', index=False)"
+				],
+				"attachments": null,
+				"execution_count": 125
+			},
+			{
+				"cell_type": "markdown",
+				"metadata": {
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"# - **Jobs Data Append**\r\n",
+					"\r\n",
+					"Removed Job Status column from Live and Delete file. Appeneded live, delete and archieve into one parquet file. Created Column called \"Category\"\r\n",
+					""
+				],
+				"attachments": null
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					},
+					"collapsed": false
+				},
+				"source": [
+					"/* Reading \r\n",
+					"\r\n",
+					"%%pyspark\r\n",
+					"df = spark.read.load('abfss://jobsdata@strdiasbxdpsdl.dfs.core.windows.net/Jobs_newdata/jobs.csv', format='csv'\r\n",
+					"## If header exists uncomment line below\r\n",
+					"##, header=True\r\n",
+					")\r\n",
+					"display(df.limit(10))"
+				],
+				"attachments": null,
+				"execution_count": 126
+			}
+		]
+	}
+}

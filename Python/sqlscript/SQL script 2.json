@@ -1,0 +1,17 @@
+{
+	"name": "SQL script 2",
+	"properties": {
+		"content": {
+			"query": "IF NOT EXISTS (SELECT * FROM sys.external_file_formats WHERE name = 'SynapseParquetFormat') \n\tCREATE EXTERNAL FILE FORMAT [SynapseParquetFormat] \n\tWITH ( FORMAT_TYPE = PARQUET)\nGO\n\nIF NOT EXISTS (SELECT * FROM sys.external_data_sources WHERE name = 'jobsdata_strdiasbxdpsdl_dfs_core_windows_net') \n\tCREATE EXTERNAL DATA SOURCE [jobsdata_strdiasbxdpsdl_dfs_core_windows_net] \n\tWITH (\n\t\tLOCATION = 'abfss://jobsdata@strdiasbxdpsdl.dfs.core.windows.net' \n\t)\nGO\n\nCREATE EXTERNAL TABLE [FactJobs] (\n\t[JNCOUNTER] nvarchar(4000),\n\t[AGENCYNAME] nvarchar(4000),\n\t[AGENCYNUMBER] nvarchar(4000),\n\t[JOBREFERENCE] nvarchar(4000),\n\t[JOBTYPE] nvarchar(4000),\n\t[POSITION] nvarchar(4000),\n\t[LOCATION] nvarchar(4000),\n\t[STARTDATE] nvarchar(4000),\n\t[DURATION] nvarchar(4000),\n\t[RATE] nvarchar(4000),\n\t[CONTACT] nvarchar(4000),\n\t[DATEINPUT] nvarchar(4000),\n\t[OTHER] nvarchar(4000),\n\t[ORIGINALDATE] nvarchar(4000),\n\t[INDUSTRY] nvarchar(4000),\n\t[Category] nvarchar(4000),\n\t[ARCHIVEDDATE] nvarchar(4000),\n\t[DELETEDDATE] nvarchar(4000),\n\t[__index_level_0__] bigint\n\t)\n\tWITH (\n\tLOCATION = 'Jobs_newdata/jobs.parquet',\n\tDATA_SOURCE = [jobsdata_strdiasbxdpsdl_dfs_core_windows_net],\n\tFILE_FORMAT = [SynapseParquetFormat]\n\t)\nGO\n\n\nSELECT TOP 100 * FROM [dbo].[FactJobs]\nGO",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"databaseName": "Built-in",
+				"poolName": "Built-in"
+			},
+			"resultLimit": 5000
+		},
+		"type": "SqlQuery"
+	}
+}

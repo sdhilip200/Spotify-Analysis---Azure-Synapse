@@ -1,0 +1,82 @@
+{
+	"name": "ds_sql_security_planner",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_sql_Database",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "Task_ID",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Task_Name",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Bucket",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Progress",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Priority",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Created_By",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Created_Date",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Start_Date",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Due_Date",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Late",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Completed_Date",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Completed_By",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Completed_Checklist_Items",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Checklist_Items",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Assigned_name",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Label",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "security_planner"
+		}
+	},
+	"type": "Microsoft.Synapse/workspaces/datasets"
+}

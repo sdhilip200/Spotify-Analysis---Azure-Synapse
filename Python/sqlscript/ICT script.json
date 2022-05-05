@@ -1,0 +1,17 @@
+{
+	"name": "ICT script",
+	"properties": {
+		"content": {
+			"query": "\nCREATE TABLE dbo.ict_capability\n(\nTask_ID NVARCHAR(100),\nTask_Name NVARCHAR(200),\nBuckets NVARCHAR(100),\nProgress NVARCHAR(100),\nPriority NVARCHAR(100),\nCreated_By NVARCHAR(100),\nCreated_Date NVARCHAR(100),\nStart_Date NVARCHAR(100),\nDue_Date NVARCHAR(100),\nLate NVARCHAR(100),\nCompleted_Date NVARCHAR(100),\nCompleted_By NVARCHAR(100),\nCompleted_Checklist_Items NVARCHAR(1000),\nChecklist_items NVARCHAR(1000),\nAssigned_name NVARCHAR(100),\nLabels NVARCHAR(100),\nFilename NVARCHAR(100)\n\n)\nWITH\n(\n    DISTRIBUTION = ROUND_ROBIN,\n    CLUSTERED COLUMNSTORE INDEX\n)\n\n\ndrop table dbo.ict_capability",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"databaseName": "Dedicated_SQL",
+				"poolName": "Dedicated_SQL"
+			},
+			"resultLimit": 5000
+		},
+		"type": "SqlQuery"
+	}
+}

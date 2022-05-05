@@ -1,0 +1,173 @@
+{
+	"name": "DelimitedText1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "wssbx01auedps-WorkspaceDefaultStorage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "Combined Data updated.csv",
+				"fileSystem": "strdiasbxdpsfs"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "Jach_ID",
+				"type": "String"
+			},
+			{
+				"name": "Jach_Requ_ID",
+				"type": "String"
+			},
+			{
+				"name": "Jach_Jncounter",
+				"type": "String"
+			},
+			{
+				"name": "Jach_Job_Site_ID",
+				"type": "String"
+			},
+			{
+				"name": "Jach_Sourcing_Channel",
+				"type": "String"
+			},
+			{
+				"name": "Jach_Start_Date",
+				"type": "String"
+			},
+			{
+				"name": "Jach_End_Date",
+				"type": "String"
+			},
+			{
+				"name": "Jach_Created_Date",
+				"type": "String"
+			},
+			{
+				"name": "Jach_Updated_Date",
+				"type": "String"
+			},
+			{
+				"name": "JNCOUNTER",
+				"type": "String"
+			},
+			{
+				"name": "Agency Name_new",
+				"type": "String"
+			},
+			{
+				"name": "Agency Number",
+				"type": "String"
+			},
+			{
+				"name": "Job Reference",
+				"type": "String"
+			},
+			{
+				"name": "Job Type",
+				"type": "String"
+			},
+			{
+				"name": "Employment",
+				"type": "String"
+			},
+			{
+				"name": "Position",
+				"type": "String"
+			},
+			{
+				"name": "Skills",
+				"type": "String"
+			},
+			{
+				"name": "Location",
+				"type": "String"
+			},
+			{
+				"name": "Start Date",
+				"type": "String"
+			},
+			{
+				"name": "Rate",
+				"type": "String"
+			},
+			{
+				"name": "Contact",
+				"type": "String"
+			},
+			{
+				"name": "Date Input",
+				"type": "String"
+			},
+			{
+				"name": "Notes",
+				"type": "String"
+			},
+			{
+				"name": "Original Date",
+				"type": "String"
+			},
+			{
+				"name": "Industry",
+				"type": "String"
+			},
+			{
+				"name": "Job Status",
+				"type": "String"
+			},
+			{
+				"name": "AD Start Date",
+				"type": "String"
+			},
+			{
+				"name": "Jobad Status",
+				"type": "String"
+			},
+			{
+				"name": "Hour",
+				"type": "String"
+			},
+			{
+				"name": "Agency Name",
+				"type": "String"
+			},
+			{
+				"name": "Source",
+				"type": "String"
+			},
+			{
+				"name": "Other",
+				"type": "String"
+			},
+			{
+				"name": "Residency",
+				"type": "String"
+			},
+			{
+				"name": "Jobad Type",
+				"type": "String"
+			},
+			{
+				"name": "Duration",
+				"type": "String"
+			},
+			{
+				"name": "Rejo_Jncounter",
+				"type": "String"
+			},
+			{
+				"name": "Rejo_Josi_Orga_ID",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.Synapse/workspaces/datasets"
+}

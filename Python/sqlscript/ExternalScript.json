@@ -1,0 +1,17 @@
+{
+	"name": "ExternalScript",
+	"properties": {
+		"content": {
+			"query": "CREATE MASTER KEY ENCRYPTION BY PASSWORD = 'Password@1234'\n\nCREATE DATABASE SCOPED CREDENTIAL ManagedIdentity\nWITH\n\tIDENTITY = 'Managed Identity'\nGO\n\nCREATE EXTERNAL DATA SOURCE datalakestorage\nWITH\n(\n\nLOCATION = 'https://strdiasbxdpsdl.dfs.core.windows.net',\nCREDENTIAL = ManagedIdentity\n);\n\n\nCREATE EXTERNAL FILE FORMAT ParquetFileFormat \nWITH (  \n         FORMAT_TYPE = PARQUET,\n      DATA_COMPRESSION = 'org.apache.hadoop.io.compress.SnappyCodec')\n\n\n",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"databaseName": "Lives",
+				"poolName": "Built-in"
+			},
+			"resultLimit": 5000
+		},
+		"type": "SqlQuery"
+	}
+}

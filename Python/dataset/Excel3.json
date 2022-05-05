@@ -1,0 +1,27 @@
+{
+	"name": "Excel3",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_blob_ict_capability",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "Sheet1",
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "demo.xlsx",
+				"container": "ict-capability"
+			},
+			"firstRowAsHeader": true
+		},
+		"schema": [
+			{
+				"name": "Assigned To",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.Synapse/workspaces/datasets"
+}

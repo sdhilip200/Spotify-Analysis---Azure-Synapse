@@ -1,0 +1,17 @@
+{
+	"name": "HttpServer1",
+	"type": "Microsoft.Synapse/workspaces/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://azurediagovt.sharepoint.com/sites/DPS-DPSC-EXT/_api/web/GetFileByServerRelativeUrl('/sites/DPS-DPSC-EXT/Shared Documents/Book1.csv')/$value",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		},
+		"connectVia": {
+			"referenceName": "AutoResolveIntegrationRuntime",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
